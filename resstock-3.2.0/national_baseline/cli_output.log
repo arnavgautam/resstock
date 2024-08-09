@@ -1,0 +1,28 @@
+Building ID: 1. Upgrade Name: Baseline. Job ID: run1
+[14:26:06.164706 WARN] [openstudio.measure.OSRunner] The model contains existing objects and is being reset.
+[14:26:06.833659 WARN] [openstudio.measure.OSRunner] The model contains existing objects and is being reset.
+[14:26:09.150440 WARN] [openstudio.measure.OSRunner] Both 'occupants' schedule file and weekday fractions provided; the latter will be ignored.
+[14:26:09.150440 WARN] [openstudio.measure.OSRunner] Both 'occupants' schedule file and weekend fractions provided; the latter will be ignored.
+[14:26:09.150440 WARN] [openstudio.measure.OSRunner] Both 'occupants' schedule file and monthly multipliers provided; the latter will be ignored.
+[14:26:10.132084 WARN] [openstudio.measure.OSRunner] Both 'ceiling_fan' schedule file and weekday fractions provided; the latter will be ignored.
+[14:26:10.132084 WARN] [openstudio.measure.OSRunner] Both 'ceiling_fan' schedule file and weekend fractions provided; the latter will be ignored.
+[14:26:10.132084 WARN] [openstudio.measure.OSRunner] Both 'ceiling_fan' schedule file and monthly multipliers provided; the latter will be ignored.
+[14:26:10.699331 WARN] [openstudio.measure.OSRunner] Both 'clothes_washer' schedule file and weekday fractions provided; the latter will be ignored.
+[14:26:10.699331 WARN] [openstudio.measure.OSRunner] Both 'clothes_washer' schedule file and weekend fractions provided; the latter will be ignored.
+[14:26:10.699331 WARN] [openstudio.measure.OSRunner] Both 'clothes_washer' schedule file and monthly multipliers provided; the latter will be ignored.
+[14:26:10.706358 WARN] [openstudio.measure.OSRunner] Both 'clothes_dryer' schedule file and weekday fractions provided; the latter will be ignored.
+[14:26:10.706358 WARN] [openstudio.measure.OSRunner] Both 'clothes_dryer' schedule file and weekend fractions provided; the latter will be ignored.
+[14:26:10.706358 WARN] [openstudio.measure.OSRunner] Both 'clothes_dryer' schedule file and monthly multipliers provided; the latter will be ignored.
+[14:26:10.711355 WARN] [openstudio.measure.OSRunner] Both 'dishwasher' schedule file and weekday fractions provided; the latter will be ignored.
+[14:26:10.711355 WARN] [openstudio.measure.OSRunner] Both 'dishwasher' schedule file and weekend fractions provided; the latter will be ignored.
+[14:26:10.712357 WARN] [openstudio.measure.OSRunner] Both 'dishwasher' schedule file and monthly multipliers provided; the latter will be ignored.
+[14:26:10.733967 WARN] [openstudio.measure.OSRunner] Both 'cooking_range' schedule file and weekday fractions provided; the latter will be ignored.
+[14:26:10.733967 WARN] [openstudio.measure.OSRunner] Both 'cooking_range' schedule file and weekend fractions provided; the latter will be ignored.
+[14:26:10.733967 WARN] [openstudio.measure.OSRunner] Both 'cooking_range' schedule file and monthly multipliers provided; the latter will be ignored.
+[14:26:10.831159 WARN] [openstudio.measure.OSRunner] Both 'hot_water_fixtures' schedule file and weekday fractions provided; the latter will be ignored.
+[14:26:10.831159 WARN] [openstudio.measure.OSRunner] Both 'hot_water_fixtures' schedule file and weekend fractions provided; the latter will be ignored.
+[14:26:10.831159 WARN] [openstudio.measure.OSRunner] Both 'hot_water_fixtures' schedule file and monthly multipliers provided; the latter will be ignored.
+[14:26:10.884355 WARN] [openstudio.measure.OSRunner] Both 'plug_loads_other' schedule file and weekday fractions provided; the latter will be ignored.
+[14:26:10.884355 WARN] [openstudio.measure.OSRunner] Both 'plug_loads_other' schedule file and weekend fractions provided; the latter will be ignored.
+[14:26:10.884355 WARN] [openstudio.measure.OSRunner] Both 'plug_loads_other' schedule file and monthly multipliers provided; the latter will be ignored.
+

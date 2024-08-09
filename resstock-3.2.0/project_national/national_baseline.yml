@@ -10,7 +10,7 @@ weather_files_url: https://data.nrel.gov/system/files/156/Buildstock_TMY3_FIPS-1
 sampler:
   type: residential_quota
   args:
-    n_datapoints: 250
+    n_datapoints: 1
 
 workflow_generator:
   type: residential_hpxml
@@ -58,12 +58,12 @@ workflow_generator:
 baseline:
   n_buildings_represented: 139647020 # American Community Survey 2021 5-year, B25001, does not include territories ( 138765649 without AK and HI )
 
-eagle:
-  n_jobs: 3
-  minutes_per_sim: 30
-  account: <account you are authorized to use>
-  postprocessing:
-    time: 20
-    n_workers: 1
-  sampling:
-    time: 5
+# eagle:
+#   n_jobs: 3
+#   minutes_per_sim: 30
+#   account: <account you are authorized to use>
+#   postprocessing:
+#     time: 20
+#     n_workers: 1
+#   sampling:
+#     time: 5
