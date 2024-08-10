@@ -1,0 +1,40 @@
+[15:37:07.167420 WARN] [openstudio.workflow.OSWorkflow] No valid weather file defined in either the osm or osw.
+[15:37:19.299090 ERROR] [openstudio.measure.OSRunner] Cannot find current Workflow Step
+[15:37:19.741163 WARN] [openstudio.WorkflowStepResult] WorkflowStepResult value called with undefined stepResult, returning 'Success'
+[15:37:19.878833 ERROR] [openstudio.measure.OSRunner] Cannot find current Workflow Step
+[15:37:19.974405 WARN] [openstudio.EpwFile] Successive data points (1999-Jan-31 to 2003-Feb-01, ending on line 753) are greater than 1 day apart in EPW file 'c:/Users/Arnav/Documents/Research/Trane Technologies/resstock-3.2.0_repo/resstock-3.2.0/resources/hpxml-measures/weather/../../../weather/G2700530.epw'. Data will be treated as typical (TMY)
+[15:37:20.148555 WARN] [openstudio.EpwFile] Successive data points (1999-Jan-31 to 2003-Feb-01, ending on line 753) are greater than 1 day apart in EPW file 'c:/Users/Arnav/Documents/Research/Trane Technologies/resstock-3.2.0_repo/resstock-3.2.0/resources/hpxml-measures/weather/../../../weather/G2700530.epw'. Data will be treated as typical (TMY)
+[15:37:24.513151 WARN] [openstudio.WorkflowStepResult] WorkflowStepResult value called with undefined stepResult, returning 'Success'
+[15:37:24.538828 ERROR] [openstudio.measure.OSRunner] Cannot find current Workflow Step
+[15:37:25.731015 WARN] [openstudio.EpwFile] Successive data points (1999-Jan-31 to 2003-Feb-01, ending on line 753) are greater than 1 day apart in EPW file 'c:/Users/Arnav/Documents/Research/Trane Technologies/resstock-3.2.0_repo/resstock-3.2.0/weather/G2700530.epw'. Data will be treated as typical (TMY)
+[15:37:28.026228 WARN] [openstudio.WorkflowStepResult] WorkflowStepResult value called with undefined stepResult, returning 'Success'
+[15:37:28.120084 WARN] [openstudio.EpwFile] Successive data points (1999-Jan-31 to 2003-Feb-01, ending on line 753) are greater than 1 day apart in EPW file 'c:/Users/Arnav/Documents/Research/Trane Technologies/resstock-3.2.0_repo/resstock-3.2.0/weather/G2700530.epw'. Data will be treated as typical (TMY)
+[15:37:28.191682 WARN] [openstudio.measure.OSRunner] The model contains existing objects and is being reset.
+[15:37:28.191682 WARN] [openstudio.measure.OSRunner] Foundation type of 'AboveApartment' cannot have a non-zero height. Assuming height is zero.
+[15:37:28.191682 WARN] [openstudio.measure.OSRunner] c:/Users/Arnav/Documents/Research/Trane Technologies/resstock-3.2.0_repo/resstock-3.2.0/minneapolis_baseline_single_10_19_unit_residence/run1/run/existing.xml: No clothes washer specified, the model will not include clothes washer energy use. [context: /HPXML/Building/BuildingDetails, id: "MyBuilding"]
+[15:37:28.191682 WARN] [openstudio.measure.OSRunner] c:/Users/Arnav/Documents/Research/Trane Technologies/resstock-3.2.0_repo/resstock-3.2.0/minneapolis_baseline_single_10_19_unit_residence/run1/run/existing.xml: No clothes dryer specified, the model will not include clothes dryer energy use. [context: /HPXML/Building/BuildingDetails, id: "MyBuilding"]
+[15:37:28.191682 WARN] [openstudio.measure.OSRunner] c:/Users/Arnav/Documents/Research/Trane Technologies/resstock-3.2.0_repo/resstock-3.2.0/minneapolis_baseline_single_10_19_unit_residence/run1/run/existing.xml: No dishwasher specified, the model will not include dishwasher energy use. [context: /HPXML/Building/BuildingDetails, id: "MyBuilding"]
+[15:37:28.191682 WARN] [openstudio.measure.OSRunner] c:/Users/Arnav/Documents/Research/Trane Technologies/resstock-3.2.0_repo/resstock-3.2.0/minneapolis_baseline_single_10_19_unit_residence/run1/run/existing.xml: No clothes washer specified, the model will not include clothes washer energy use. [context: /HPXML/Building/BuildingDetails, id: "MyBuilding"]
+[15:37:28.191682 WARN] [openstudio.measure.OSRunner] c:/Users/Arnav/Documents/Research/Trane Technologies/resstock-3.2.0_repo/resstock-3.2.0/minneapolis_baseline_single_10_19_unit_residence/run1/run/existing.xml: No clothes dryer specified, the model will not include clothes dryer energy use. [context: /HPXML/Building/BuildingDetails, id: "MyBuilding"]
+[15:37:28.192737 WARN] [openstudio.measure.OSRunner] c:/Users/Arnav/Documents/Research/Trane Technologies/resstock-3.2.0_repo/resstock-3.2.0/minneapolis_baseline_single_10_19_unit_residence/run1/run/existing.xml: No dishwasher specified, the model will not include dishwasher energy use. [context: /HPXML/Building/BuildingDetails, id: "MyBuilding"]
+[15:37:28.748568 WARN] [openstudio.measure.OSRunner] The model contains existing objects and is being reset.
+[15:37:28.830938 WARN] [openstudio.EpwFile] Successive data points (1999-Jan-31 to 2003-Feb-01, ending on line 753) are greater than 1 day apart in EPW file 'c:/Users/Arnav/Documents/Research/Trane Technologies/resstock-3.2.0_repo/resstock-3.2.0/weather/G2700530.epw'. Data will be treated as typical (TMY)
+[15:37:29.156929 WARN] [openstudio.EpwFile] Successive data points (1999-Jan-31 to 2003-Feb-01, ending on line 753) are greater than 1 day apart in EPW file 'c:/Users/Arnav/Documents/Research/Trane Technologies/resstock-3.2.0_repo/resstock-3.2.0/weather/G2700530.epw'. Data will be treated as typical (TMY)
+[15:37:30.217571 WARN] [openstudio.measure.OSRunner] Both 'occupants' schedule file and weekday fractions provided; the latter will be ignored.
+[15:37:30.217571 WARN] [openstudio.measure.OSRunner] Both 'occupants' schedule file and weekend fractions provided; the latter will be ignored.
+[15:37:30.217571 WARN] [openstudio.measure.OSRunner] Both 'occupants' schedule file and monthly multipliers provided; the latter will be ignored.
+[15:37:30.254887 WARN] [openstudio.measure.OSRunner] Both 'ceiling_fan' schedule file and weekday fractions provided; the latter will be ignored.
+[15:37:30.254887 WARN] [openstudio.measure.OSRunner] Both 'ceiling_fan' schedule file and weekend fractions provided; the latter will be ignored.
+[15:37:30.254887 WARN] [openstudio.measure.OSRunner] Both 'ceiling_fan' schedule file and monthly multipliers provided; the latter will be ignored.
+[15:37:30.297267 WARN] [openstudio.measure.OSRunner] Both 'cooking_range' schedule file and weekday fractions provided; the latter will be ignored.
+[15:37:30.297267 WARN] [openstudio.measure.OSRunner] Both 'cooking_range' schedule file and weekend fractions provided; the latter will be ignored.
+[15:37:30.297267 WARN] [openstudio.measure.OSRunner] Both 'cooking_range' schedule file and monthly multipliers provided; the latter will be ignored.
+[15:37:30.307998 WARN] [openstudio.measure.OSRunner] Both 'hot_water_fixtures' schedule file and weekday fractions provided; the latter will be ignored.
+[15:37:30.307998 WARN] [openstudio.measure.OSRunner] Both 'hot_water_fixtures' schedule file and weekend fractions provided; the latter will be ignored.
+[15:37:30.307998 WARN] [openstudio.measure.OSRunner] Both 'hot_water_fixtures' schedule file and monthly multipliers provided; the latter will be ignored.
+[15:37:30.321654 WARN] [openstudio.measure.OSRunner] Both 'plug_loads_other' schedule file and weekday fractions provided; the latter will be ignored.
+[15:37:30.321654 WARN] [openstudio.measure.OSRunner] Both 'plug_loads_other' schedule file and weekend fractions provided; the latter will be ignored.
+[15:37:30.321654 WARN] [openstudio.measure.OSRunner] Both 'plug_loads_other' schedule file and monthly multipliers provided; the latter will be ignored.
+[15:37:30.710852 WARN] [utilities.idf.WorkspaceObject] Object of type 'Schedule:Constant' and named 'Always Off Discrete', points to an object named OnOff 1 from field 1, but that object cannot be located.
+[15:37:30.711368 WARN] [utilities.idf.WorkspaceObject] Object of type 'Schedule:Constant' and named 'Always On Continuous', points to an object named Fractional 1 from field 1, but that object cannot be located.
+[15:37:37.365384 WARN] [openstudio.workflow.OSWorkflow] Unable to find sql file at c:/Users/Arnav/Documents/Research/Trane Technologies/resstock-3.2.0_repo/resstock-3.2.0/minneapolis_baseline_single_10_19_unit_residence/run1/run/eplusout.sql

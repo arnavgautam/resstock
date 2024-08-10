@@ -1,0 +1,27 @@
+Building ID: 1. Upgrade Name: Baseline. Job ID: run1
+[15:23:00.164767 WARN] [openstudio.measure.OSRunner] The model contains existing objects and is being reset.
+[15:23:00.164767 WARN] [openstudio.measure.OSRunner] Foundation type of 'AboveApartment' cannot have a non-zero height. Assuming height is zero.
+[15:23:00.164767 WARN] [openstudio.measure.OSRunner] C:/Users/Arnav/Documents/Research/Trane Technologies/resstock-3.2.0_repo/resstock-3.2.0/minneapolis_baseline_single_2_unit_residence/run1/run/existing.xml: No clothes washer specified, the model will not include clothes washer energy use. [context: /HPXML/Building/BuildingDetails, id: "MyBuilding"]
+[15:23:00.164767 WARN] [openstudio.measure.OSRunner] C:/Users/Arnav/Documents/Research/Trane Technologies/resstock-3.2.0_repo/resstock-3.2.0/minneapolis_baseline_single_2_unit_residence/run1/run/existing.xml: No clothes dryer specified, the model will not include clothes dryer energy use. [context: /HPXML/Building/BuildingDetails, id: "MyBuilding"]
+[15:23:00.164767 WARN] [openstudio.measure.OSRunner] C:/Users/Arnav/Documents/Research/Trane Technologies/resstock-3.2.0_repo/resstock-3.2.0/minneapolis_baseline_single_2_unit_residence/run1/run/existing.xml: No dishwasher specified, the model will not include dishwasher energy use. [context: /HPXML/Building/BuildingDetails, id: "MyBuilding"]
+[15:23:00.164767 WARN] [openstudio.measure.OSRunner] C:/Users/Arnav/Documents/Research/Trane Technologies/resstock-3.2.0_repo/resstock-3.2.0/minneapolis_baseline_single_2_unit_residence/run1/run/existing.xml: No clothes washer specified, the model will not include clothes washer energy use. [context: /HPXML/Building/BuildingDetails, id: "MyBuilding"]
+[15:23:00.164767 WARN] [openstudio.measure.OSRunner] C:/Users/Arnav/Documents/Research/Trane Technologies/resstock-3.2.0_repo/resstock-3.2.0/minneapolis_baseline_single_2_unit_residence/run1/run/existing.xml: No clothes dryer specified, the model will not include clothes dryer energy use. [context: /HPXML/Building/BuildingDetails, id: "MyBuilding"]
+[15:23:00.164767 WARN] [openstudio.measure.OSRunner] C:/Users/Arnav/Documents/Research/Trane Technologies/resstock-3.2.0_repo/resstock-3.2.0/minneapolis_baseline_single_2_unit_residence/run1/run/existing.xml: No dishwasher specified, the model will not include dishwasher energy use. [context: /HPXML/Building/BuildingDetails, id: "MyBuilding"]
+[15:23:00.537406 WARN] [openstudio.measure.OSRunner] The model contains existing objects and is being reset.
+[15:23:01.640542 WARN] [openstudio.measure.OSRunner] HVAC setpoints have been automatically adjusted to prevent periods where the heating setpoint is greater than the cooling setpoint.
+[15:23:01.774792 WARN] [openstudio.measure.OSRunner] Both 'occupants' schedule file and weekday fractions provided; the latter will be ignored.
+[15:23:01.774792 WARN] [openstudio.measure.OSRunner] Both 'occupants' schedule file and weekend fractions provided; the latter will be ignored.
+[15:23:01.774792 WARN] [openstudio.measure.OSRunner] Both 'occupants' schedule file and monthly multipliers provided; the latter will be ignored.
+[15:23:01.859123 WARN] [openstudio.measure.OSRunner] Both 'ceiling_fan' schedule file and weekday fractions provided; the latter will be ignored.
+[15:23:01.859123 WARN] [openstudio.measure.OSRunner] Both 'ceiling_fan' schedule file and weekend fractions provided; the latter will be ignored.
+[15:23:01.859123 WARN] [openstudio.measure.OSRunner] Both 'ceiling_fan' schedule file and monthly multipliers provided; the latter will be ignored.
+[15:23:01.911173 WARN] [openstudio.measure.OSRunner] Both 'cooking_range' schedule file and weekday fractions provided; the latter will be ignored.
+[15:23:01.911173 WARN] [openstudio.measure.OSRunner] Both 'cooking_range' schedule file and weekend fractions provided; the latter will be ignored.
+[15:23:01.911173 WARN] [openstudio.measure.OSRunner] Both 'cooking_range' schedule file and monthly multipliers provided; the latter will be ignored.
+[15:23:01.923495 WARN] [openstudio.measure.OSRunner] Both 'hot_water_fixtures' schedule file and weekday fractions provided; the latter will be ignored.
+[15:23:01.923495 WARN] [openstudio.measure.OSRunner] Both 'hot_water_fixtures' schedule file and weekend fractions provided; the latter will be ignored.
+[15:23:01.923495 WARN] [openstudio.measure.OSRunner] Both 'hot_water_fixtures' schedule file and monthly multipliers provided; the latter will be ignored.
+[15:23:01.929885 WARN] [openstudio.measure.OSRunner] Both 'plug_loads_other' schedule file and weekday fractions provided; the latter will be ignored.
+[15:23:01.929885 WARN] [openstudio.measure.OSRunner] Both 'plug_loads_other' schedule file and weekend fractions provided; the latter will be ignored.
+[15:23:01.929885 WARN] [openstudio.measure.OSRunner] Both 'plug_loads_other' schedule file and monthly multipliers provided; the latter will be ignored.
+

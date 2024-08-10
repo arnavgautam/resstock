@@ -1,0 +1,41 @@
+[15:39:50.045933 WARN] [openstudio.workflow.OSWorkflow] No valid weather file defined in either the osm or osw.
+[15:39:58.599149 ERROR] [openstudio.measure.OSRunner] Cannot find current Workflow Step
+[15:39:58.943590 WARN] [openstudio.WorkflowStepResult] WorkflowStepResult value called with undefined stepResult, returning 'Success'
+[15:39:59.014845 ERROR] [openstudio.measure.OSRunner] Cannot find current Workflow Step
+[15:39:59.076821 WARN] [openstudio.EpwFile] Successive data points (1999-Jan-31 to 2003-Feb-01, ending on line 753) are greater than 1 day apart in EPW file 'c:/Users/Arnav/Documents/Research/Trane Technologies/resstock-3.2.0_repo/resstock-3.2.0/resources/hpxml-measures/weather/../../../weather/G2700530.epw'. Data will be treated as typical (TMY)
+[15:39:59.198576 WARN] [openstudio.EpwFile] Successive data points (1999-Jan-31 to 2003-Feb-01, ending on line 753) are greater than 1 day apart in EPW file 'c:/Users/Arnav/Documents/Research/Trane Technologies/resstock-3.2.0_repo/resstock-3.2.0/resources/hpxml-measures/weather/../../../weather/G2700530.epw'. Data will be treated as typical (TMY)
+[15:40:02.314085 WARN] [openstudio.WorkflowStepResult] WorkflowStepResult value called with undefined stepResult, returning 'Success'
+[15:40:02.328490 ERROR] [openstudio.measure.OSRunner] Cannot find current Workflow Step
+[15:40:03.128868 WARN] [openstudio.EpwFile] Successive data points (1999-Jan-31 to 2003-Feb-01, ending on line 753) are greater than 1 day apart in EPW file 'c:/Users/Arnav/Documents/Research/Trane Technologies/resstock-3.2.0_repo/resstock-3.2.0/weather/G2700530.epw'. Data will be treated as typical (TMY)
+[15:40:06.241385 WARN] [openstudio.WorkflowStepResult] WorkflowStepResult value called with undefined stepResult, returning 'Success'
+[15:40:06.357065 WARN] [openstudio.EpwFile] Successive data points (1999-Jan-31 to 2003-Feb-01, ending on line 753) are greater than 1 day apart in EPW file 'c:/Users/Arnav/Documents/Research/Trane Technologies/resstock-3.2.0_repo/resstock-3.2.0/weather/G2700530.epw'. Data will be treated as typical (TMY)
+[15:40:06.418591 WARN] [openstudio.measure.OSRunner] The model contains existing objects and is being reset.
+[15:40:06.888727 WARN] [openstudio.measure.OSRunner] The model contains existing objects and is being reset.
+[15:40:06.999932 WARN] [openstudio.EpwFile] Successive data points (1999-Jan-31 to 2003-Feb-01, ending on line 753) are greater than 1 day apart in EPW file 'c:/Users/Arnav/Documents/Research/Trane Technologies/resstock-3.2.0_repo/resstock-3.2.0/weather/G2700530.epw'. Data will be treated as typical (TMY)
+[15:40:07.264682 WARN] [openstudio.EpwFile] Successive data points (1999-Jan-31 to 2003-Feb-01, ending on line 753) are greater than 1 day apart in EPW file 'c:/Users/Arnav/Documents/Research/Trane Technologies/resstock-3.2.0_repo/resstock-3.2.0/weather/G2700530.epw'. Data will be treated as typical (TMY)
+[15:40:08.447243 WARN] [openstudio.measure.OSRunner] Both 'occupants' schedule file and weekday fractions provided; the latter will be ignored.
+[15:40:08.447243 WARN] [openstudio.measure.OSRunner] Both 'occupants' schedule file and weekend fractions provided; the latter will be ignored.
+[15:40:08.448244 WARN] [openstudio.measure.OSRunner] Both 'occupants' schedule file and monthly multipliers provided; the latter will be ignored.
+[15:40:08.493108 WARN] [openstudio.measure.OSRunner] Both 'ceiling_fan' schedule file and weekday fractions provided; the latter will be ignored.
+[15:40:08.493108 WARN] [openstudio.measure.OSRunner] Both 'ceiling_fan' schedule file and weekend fractions provided; the latter will be ignored.
+[15:40:08.493108 WARN] [openstudio.measure.OSRunner] Both 'ceiling_fan' schedule file and monthly multipliers provided; the latter will be ignored.
+[15:40:08.530331 WARN] [openstudio.measure.OSRunner] Both 'clothes_washer' schedule file and weekday fractions provided; the latter will be ignored.
+[15:40:08.530331 WARN] [openstudio.measure.OSRunner] Both 'clothes_washer' schedule file and weekend fractions provided; the latter will be ignored.
+[15:40:08.530331 WARN] [openstudio.measure.OSRunner] Both 'clothes_washer' schedule file and monthly multipliers provided; the latter will be ignored.
+[15:40:08.537335 WARN] [openstudio.measure.OSRunner] Both 'clothes_dryer' schedule file and weekday fractions provided; the latter will be ignored.
+[15:40:08.538331 WARN] [openstudio.measure.OSRunner] Both 'clothes_dryer' schedule file and weekend fractions provided; the latter will be ignored.
+[15:40:08.538331 WARN] [openstudio.measure.OSRunner] Both 'clothes_dryer' schedule file and monthly multipliers provided; the latter will be ignored.
+[15:40:08.542338 WARN] [openstudio.measure.OSRunner] Both 'dishwasher' schedule file and weekday fractions provided; the latter will be ignored.
+[15:40:08.542338 WARN] [openstudio.measure.OSRunner] Both 'dishwasher' schedule file and weekend fractions provided; the latter will be ignored.
+[15:40:08.542338 WARN] [openstudio.measure.OSRunner] Both 'dishwasher' schedule file and monthly multipliers provided; the latter will be ignored.
+[15:40:08.566348 WARN] [openstudio.measure.OSRunner] Both 'cooking_range' schedule file and weekday fractions provided; the latter will be ignored.
+[15:40:08.566348 WARN] [openstudio.measure.OSRunner] Both 'cooking_range' schedule file and weekend fractions provided; the latter will be ignored.
+[15:40:08.566348 WARN] [openstudio.measure.OSRunner] Both 'cooking_range' schedule file and monthly multipliers provided; the latter will be ignored.
+[15:40:08.576509 WARN] [openstudio.measure.OSRunner] Both 'hot_water_fixtures' schedule file and weekday fractions provided; the latter will be ignored.
+[15:40:08.576509 WARN] [openstudio.measure.OSRunner] Both 'hot_water_fixtures' schedule file and weekend fractions provided; the latter will be ignored.
+[15:40:08.577509 WARN] [openstudio.measure.OSRunner] Both 'hot_water_fixtures' schedule file and monthly multipliers provided; the latter will be ignored.
+[15:40:08.604597 WARN] [openstudio.measure.OSRunner] Both 'plug_loads_other' schedule file and weekday fractions provided; the latter will be ignored.
+[15:40:08.605597 WARN] [openstudio.measure.OSRunner] Both 'plug_loads_other' schedule file and weekend fractions provided; the latter will be ignored.
+[15:40:08.605597 WARN] [openstudio.measure.OSRunner] Both 'plug_loads_other' schedule file and monthly multipliers provided; the latter will be ignored.
+[15:40:09.322706 WARN] [utilities.idf.WorkspaceObject] Object of type 'Schedule:Constant' and named 'Always Off Discrete', points to an object named OnOff 1 from field 1, but that object cannot be located.
+[15:40:16.335943 WARN] [openstudio.workflow.OSWorkflow] Unable to find sql file at c:/Users/Arnav/Documents/Research/Trane Technologies/resstock-3.2.0_repo/resstock-3.2.0/minneapolis_baseline_single_SFA_unit_residence/run1/run/eplusout.sql
