@@ -1,0 +1,21 @@
+[20:16:39.757790 WARN] [openstudio.workflow.OSWorkflow] No valid weather file defined in either the osm or osw.
+[20:16:55.851787 ERROR] [openstudio.measure.OSRunner] Cannot find current Workflow Step
+[20:16:56.440451 WARN] [openstudio.WorkflowStepResult] WorkflowStepResult value called with undefined stepResult, returning 'Success'
+[20:16:56.620939 ERROR] [openstudio.measure.OSRunner] Cannot find current Workflow Step
+[20:16:56.743291 WARN] [openstudio.EpwFile] Successive data points (1999-Jan-31 to 2003-Feb-01, ending on line 753) are greater than 1 day apart in EPW file 'c:/Users/Arnav/Documents/Research/Trane Technologies/resstock-3.2.0_repo/resstock-3.2.0/resources/hpxml-measures/weather/../../../weather/G2700530.epw'. Data will be treated as typical (TMY)
+[20:16:56.900415 WARN] [openstudio.EpwFile] Successive data points (1999-Jan-31 to 2003-Feb-01, ending on line 753) are greater than 1 day apart in EPW file 'c:/Users/Arnav/Documents/Research/Trane Technologies/resstock-3.2.0_repo/resstock-3.2.0/resources/hpxml-measures/weather/../../../weather/G2700530.epw'. Data will be treated as typical (TMY)
+[20:17:10.455393 WARN] [openstudio.WorkflowStepResult] WorkflowStepResult value called with undefined stepResult, returning 'Success'
+[20:17:10.497910 ERROR] [openstudio.measure.OSRunner] Cannot find current Workflow Step
+[20:17:14.094151 WARN] [openstudio.EpwFile] Successive data points (1999-Jan-31 to 2003-Feb-01, ending on line 753) are greater than 1 day apart in EPW file 'c:/Users/Arnav/Documents/Research/Trane Technologies/resstock-3.2.0_repo/resstock-3.2.0/weather/G2700530.epw'. Data will be treated as typical (TMY)
+[20:17:23.218572 WARN] [openstudio.WorkflowStepResult] WorkflowStepResult value called with undefined stepResult, returning 'Success'
+[20:17:23.634366 WARN] [openstudio.EpwFile] Successive data points (1999-Jan-31 to 2003-Feb-01, ending on line 753) are greater than 1 day apart in EPW file 'c:/Users/Arnav/Documents/Research/Trane Technologies/resstock-3.2.0_repo/resstock-3.2.0/weather/G2700530.epw'. Data will be treated as typical (TMY)
+[20:17:23.845250 WARN] [openstudio.measure.OSRunner] The model contains existing objects and is being reset.
+[20:17:28.251940 WARN] [openstudio.workflow.OSWorkflow] EPW file not found
+[20:17:28.260480 ERROR] [openstudio.energyplus.ForwardTranslator] No construction for either surface 'Surface 1', and 'Surface 29'
+[20:17:28.261517 ERROR] [openstudio.energyplus.ForwardTranslator] No construction for either surface 'Surface 7', and 'Surface 6'
+[20:17:28.261517 ERROR] [openstudio.energyplus.ForwardTranslator] No construction for either surface 'Surface 8', and 'Surface 13'
+[20:17:28.434064 ERROR] [openstudio.model.YearDescription] 'UseWeatherFile' is selected in YearDescription, but there are no weather file set for the model.
+[20:17:28.434064 ERROR] [openstudio.model.YearDescription] 'UseWeatherFile' is selected in YearDescription, but there are no weather file set for the model.
+[20:17:28.468341 WARN] [utilities.idf.WorkspaceObject] Object of type 'Schedule:Constant' and named 'Always On Discrete', points to an object named OnOff from field 1, but that object cannot be located.
+[20:17:28.468341 WARN] [utilities.idf.WorkspaceObject] Object of type 'Schedule:Constant' and named 'Always Off Discrete', points to an object named OnOff 1 from field 1, but that object cannot be located.
+[20:17:28.468341 WARN] [utilities.idf.WorkspaceObject] Object of type 'Schedule:Constant' and named 'Always On Continuous', points to an object named Fractional from field 1, but that object cannot be located.

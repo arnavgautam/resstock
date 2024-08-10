@@ -1,0 +1,152 @@
+{
+  "steps": [
+    {
+      "measure_dir_name": "BuildExistingModel",
+      "arguments": {
+        "building_id": "",
+        "sample_weight": 139647020.0,
+        "simulation_control_timestep": 60,
+        "simulation_control_run_period_begin_month": 1,
+        "simulation_control_run_period_begin_day_of_month": 1,
+        "simulation_control_run_period_end_month": 12,
+        "simulation_control_run_period_end_day_of_month": 31,
+        "simulation_control_run_period_calendar_year": 2007,
+        "emissions_scenario_names": "LRMER_MidCase_15",
+        "emissions_types": "CO2e",
+        "emissions_electricity_folders": "data/cambium/2022/LRMER_MidCase_15",
+        "emissions_natural_gas_values": "",
+        "emissions_propane_values": "",
+        "emissions_fuel_oil_values": "",
+        "emissions_wood_values": "",
+        "utility_bill_scenario_names": "Bills",
+        "utility_bill_simple_filepaths": "",
+        "utility_bill_detailed_filepaths": "",
+        "utility_bill_electricity_fixed_charges": "",
+        "utility_bill_electricity_marginal_rates": "",
+        "utility_bill_natural_gas_fixed_charges": "",
+        "utility_bill_natural_gas_marginal_rates": "",
+        "utility_bill_propane_fixed_charges": "",
+        "utility_bill_propane_marginal_rates": "",
+        "utility_bill_fuel_oil_fixed_charges": "",
+        "utility_bill_fuel_oil_marginal_rates": "",
+        "utility_bill_wood_fixed_charges": "",
+        "utility_bill_wood_marginal_rates": "",
+        "utility_bill_pv_compensation_types": "",
+        "utility_bill_pv_net_metering_annual_excess_sellback_rate_types": "",
+        "utility_bill_pv_net_metering_annual_excess_sellback_rates": "",
+        "utility_bill_pv_feed_in_tariff_rates": "",
+        "utility_bill_pv_monthly_grid_connection_fee_units": "",
+        "utility_bill_pv_monthly_grid_connection_fees": ""
+      }
+    },
+    {
+      "measure_dir_name": "HPXMLtoOpenStudio",
+      "arguments": {
+        "hpxml_path": "",
+        "output_dir": "",
+        "debug": false,
+        "add_component_loads": false,
+        "skip_validation": true
+      }
+    },
+    {
+      "measure_dir_name": "ReportSimulationOutput",
+      "arguments": {
+        "output_format": "csv",
+        "include_annual_total_consumptions": true,
+        "include_annual_fuel_consumptions": true,
+        "include_annual_end_use_consumptions": true,
+        "include_annual_system_use_consumptions": false,
+        "include_annual_emissions": true,
+        "include_annual_emission_fuels": true,
+        "include_annual_emission_end_uses": true,
+        "include_annual_total_loads": true,
+        "include_annual_unmet_hours": true,
+        "include_annual_peak_fuels": true,
+        "include_annual_peak_loads": true,
+        "include_annual_component_loads": true,
+        "include_annual_hot_water_uses": true,
+        "include_annual_hvac_summary": true,
+        "include_annual_resilience": true,
+        "timeseries_frequency": "hourly",
+        "include_timeseries_total_consumptions": true,
+        "include_timeseries_fuel_consumptions": true,
+        "include_timeseries_end_use_consumptions": true,
+        "include_timeseries_system_use_consumptions": false,
+        "include_timeseries_emissions": true,
+        "include_timeseries_emission_fuels": true,
+        "include_timeseries_emission_end_uses": true,
+        "include_timeseries_hot_water_uses": true,
+        "include_timeseries_total_loads": true,
+        "include_timeseries_component_loads": true,
+        "include_timeseries_unmet_hours": true,
+        "include_timeseries_zone_temperatures": true,
+        "include_timeseries_airflows": true,
+        "include_timeseries_weather": true,
+        "include_timeseries_resilience": true,
+        "timeseries_timestamp_convention": "end",
+        "timeseries_num_decimal_places": 3,
+        "add_timeseries_dst_column": true,
+        "add_timeseries_utc_column": true
+      }
+    },
+    {
+      "measure_dir_name": "ReportHPXMLOutput",
+      "arguments": {
+        "output_format": "csv"
+      }
+    },
+    {
+      "measure_dir_name": "ReportUtilityBills",
+      "arguments": {
+        "output_format": "csv",
+        "include_annual_bills": true,
+        "include_monthly_bills": false
+      }
+    },
+    {
+      "measure_dir_name": "UpgradeCosts",
+      "arguments": {
+        "debug": false
+      }
+    },
+    {
+      "measure_dir_name": "QOIReport",
+      "arguments": {
+      },
+      "measure_type": "ReportingMeasure"
+    },
+    {
+      "measure_dir_name": "ServerDirectoryCleanup",
+      "arguments": {
+        "retain_in_osm": false,
+        "retain_in_idf": false,
+        "retain_pre_process_idf": false,
+        "retain_eplusout_audit": false,
+        "retain_eplusout_bnd": false,
+        "retain_eplusout_eio": false,
+        "retain_eplusout_end": false,
+        "retain_eplusout_err": false,
+        "retain_eplusout_eso": false,
+        "retain_eplusout_mdd": false,
+        "retain_eplusout_mtd": false,
+        "retain_eplusout_rdd": false,
+        "retain_eplusout_shd": false,
+        "retain_eplusout_msgpack": false,
+        "retain_eplustbl_htm": false,
+        "retain_stdout_energyplus": false,
+        "retain_stdout_expandobject": false,
+        "retain_schedules_csv": false,
+        "debug": false
+      }
+    }
+  ],
+  "created_at": "2024-08-09T19:57:04",
+  "measure_paths": [
+    "c:/Users/Arnav/Documents/Research/Trane Technologies/resstock-3.2.0_repo/resstock-3.2.0/measures",
+    "c:/Users/Arnav/Documents/Research/Trane Technologies/resstock-3.2.0_repo/resstock-3.2.0/resources/hpxml-measures"
+  ],
+  "run_options": {
+    "skip_zip_results": true
+  }
+}

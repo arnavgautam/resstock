@@ -1,0 +1,1385 @@
+{
+   "completed_at" : "20240810T031728Z",
+   "completed_status" : "Invalid",
+   "created_at" : "2024-08-09T20:12:43",
+   "current_step" : 2,
+   "file_paths" : 
+   [
+      "c:/Users/Arnav/Documents/Research/Trane Technologies/resstock-3.2.0_repo/resstock-3.2.0/minneapolis_upgrades_single_SFA_unit_residence/run4/generated_files",
+      "./files",
+      "./weather",
+      "../../files",
+      "../../weather",
+      "./"
+   ],
+   "hash" : "5CC6CA24",
+   "measure_paths" : 
+   [
+      "c:/Users/Arnav/Documents/Research/Trane Technologies/resstock-3.2.0_repo/resstock-3.2.0/measures",
+      "c:/Users/Arnav/Documents/Research/Trane Technologies/resstock-3.2.0_repo/resstock-3.2.0/resources/hpxml-measures"
+   ],
+   "run_options" : 
+   {
+      "skip_zip_results" : true
+   },
+   "started_at" : "20240810T031640Z",
+   "steps" : 
+   [
+      {
+         "arguments" : 
+         {
+            "building_id" : "1",
+            "emissions_electricity_folders" : "data/cambium/2022/LRMER_MidCase_15",
+            "emissions_fuel_oil_values" : "",
+            "emissions_natural_gas_values" : "",
+            "emissions_propane_values" : "",
+            "emissions_scenario_names" : "LRMER_MidCase_15",
+            "emissions_types" : "CO2e",
+            "emissions_wood_values" : "",
+            "sample_weight" : 139647020,
+            "simulation_control_run_period_begin_day_of_month" : 1,
+            "simulation_control_run_period_begin_month" : 1,
+            "simulation_control_run_period_calendar_year" : 2007,
+            "simulation_control_run_period_end_day_of_month" : 31,
+            "simulation_control_run_period_end_month" : 12,
+            "simulation_control_timestep" : 60,
+            "utility_bill_detailed_filepaths" : "",
+            "utility_bill_electricity_fixed_charges" : "",
+            "utility_bill_electricity_marginal_rates" : "",
+            "utility_bill_fuel_oil_fixed_charges" : "",
+            "utility_bill_fuel_oil_marginal_rates" : "",
+            "utility_bill_natural_gas_fixed_charges" : "",
+            "utility_bill_natural_gas_marginal_rates" : "",
+            "utility_bill_propane_fixed_charges" : "",
+            "utility_bill_propane_marginal_rates" : "",
+            "utility_bill_pv_compensation_types" : "",
+            "utility_bill_pv_feed_in_tariff_rates" : "",
+            "utility_bill_pv_monthly_grid_connection_fee_units" : "",
+            "utility_bill_pv_monthly_grid_connection_fees" : "",
+            "utility_bill_pv_net_metering_annual_excess_sellback_rate_types" : "",
+            "utility_bill_pv_net_metering_annual_excess_sellback_rates" : "",
+            "utility_bill_scenario_names" : "Bills",
+            "utility_bill_simple_filepaths" : "",
+            "utility_bill_wood_fixed_charges" : "",
+            "utility_bill_wood_marginal_rates" : ""
+         },
+         "measure_dir_name" : "BuildExistingModel",
+         "result" : 
+         {
+            "completed_at" : "20240810T031723Z",
+            "measure_class_name" : "BuildExistingModel",
+            "measure_display_name" : "Build Existing Model",
+            "measure_name" : "build_existing_model",
+            "measure_taxonomy" : "Whole Building.Space Types",
+            "measure_type" : "ModelMeasure",
+            "measure_uid" : "dedf59bb-3b88-4f16-8755-2c1ff5519cbf",
+            "measure_version_id" : "a678a2cf-fbd1-4cd7-be1d-4507e1de3607",
+            "measure_version_modified" : "20231127T221035Z",
+            "measure_xml_checksum" : "2C38F48B",
+            "started_at" : "20240810T031644Z",
+            "stderr" : "",
+            "stdout" : "[openstudio.measure.OSRunner] <Error> Cannot find current Workflow Step\n[openstudio.measure.OSRunner] <Error> Cannot find current Workflow Step\n[openstudio.measure.OSRunner] <Error> Cannot find current Workflow Step\n",
+            "step_errors" : [],
+            "step_files" : [],
+            "step_info" : 
+            [
+               "Assigning option 'Non-CBSA West North Central' for parameter 'AHS Region'.",
+               "Assigning option 'No' for parameter 'AIANNH Area'.",
+               "Assigning option '6A' for parameter 'ASHRAE IECC Climate Zone 2004'.",
+               "Assigning option '6A' for parameter 'ASHRAE IECC Climate Zone 2004 - 2A Split'.",
+               "Assigning option '100-120%' for parameter 'Area Median Income'.",
+               "Assigning option 'Hour23' for parameter 'Bathroom Spot Vent Hour'.",
+               "Assigning option 'None' for parameter 'Battery'.",
+               "Assigning option '3' for parameter 'Bedrooms'.",
+               "Assigning option 'Cold' for parameter 'Building America Climate Zone'.",
+               "Assigning option 'None' for parameter 'CEC Climate Zone'.",
+               "Assigning option 'Standard Efficiency' for parameter 'Ceiling Fan'.",
+               "Assigning option 'West North Central' for parameter 'Census Division'.",
+               "Assigning option 'West North Central' for parameter 'Census Division RECS'.",
+               "Assigning option 'Midwest' for parameter 'Census Region'.",
+               "Assigning option 'MN, Minneapolis' for parameter 'City'.",
+               "Assigning option 'Electric' for parameter 'Clothes Dryer'.",
+               "Assigning option '100% Usage' for parameter 'Clothes Dryer Usage Level'.",
+               "Assigning option 'Standard' for parameter 'Clothes Washer'.",
+               "Assigning option 'Yes' for parameter 'Clothes Washer Presence'.",
+               "Assigning option '100% Usage' for parameter 'Clothes Washer Usage Level'.",
+               "Assigning option 'Electric Resistance' for parameter 'Cooking Range'.",
+               "Assigning option '100% Usage' for parameter 'Cooking Range Usage Level'.",
+               "Assigning option '75F' for parameter 'Cooling Setpoint'.",
+               "Assigning option 'No' for parameter 'Cooling Setpoint Has Offset'.",
+               "Assigning option '0F' for parameter 'Cooling Setpoint Offset Magnitude'.",
+               "Assigning option 'None' for parameter 'Cooling Setpoint Offset Period'.",
+               "Assigning option 'Not Applicable' for parameter 'Corridor'.",
+               "Assigning option 'MN, Hennepin County' for parameter 'County'.",
+               "Assigning option 'G2701410, G27001000' for parameter 'County and PUMA'.",
+               "Assigning option 'None' for parameter 'Dehumidifier'.",
+               "Assigning option '318 Rated kWh' for parameter 'Dishwasher'.",
+               "Assigning option '100% Usage' for parameter 'Dishwasher Usage Level'.",
+               "Assigning option '20 ft^2' for parameter 'Door Area'.",
+               "Assigning option 'Fiberglass' for parameter 'Doors'.",
+               "Assigning option '0% Leakage to Outside, Uninsulated' for parameter 'Duct Leakage and Insulation'.",
+               "Assigning option 'Heated Basement' for parameter 'Duct Location'.",
+               "Assigning option '2 ft' for parameter 'Eaves'.",
+               "Assigning option 'None' for parameter 'Electric Vehicle'.",
+               "Assigning option 'Northern' for parameter 'Energystar Climate Zone 2023'.",
+               "Assigning option '400%+' for parameter 'Federal Poverty Level'.",
+               "Assigning option 'MROWc' for parameter 'Generation And Emissions Assessment Region'.",
+               "Assigning option 'Vented Attic' for parameter 'Geometry Attic Type'.",
+               "Assigning option 'None' for parameter 'Geometry Building Horizontal Location MF'.",
+               "Assigning option 'Middle' for parameter 'Geometry Building Horizontal Location SFA'.",
+               "Assigning option 'None' for parameter 'Geometry Building Level MF'.",
+               "Assigning option 'None' for parameter 'Geometry Building Number Units MF'.",
+               "Assigning option '8' for parameter 'Geometry Building Number Units SFA'.",
+               "Assigning option 'Single-Family Attached' for parameter 'Geometry Building Type ACS'.",
+               "Assigning option 'Single-Family Attached' for parameter 'Geometry Building Type Height'.",
+               "Assigning option 'Single-Family Attached' for parameter 'Geometry Building Type RECS'.",
+               "Assigning option '1500-1999' for parameter 'Geometry Floor Area'.",
+               "Assigning option '1500-2499' for parameter 'Geometry Floor Area Bin'.",
+               "Assigning option 'Heated Basement' for parameter 'Geometry Foundation Type'.",
+               "Assigning option 'None' for parameter 'Geometry Garage'.",
+               "Assigning option 'Single-Family Attached, Heated Basement, Vented Attic, No Garage' for parameter 'Geometry Space Combination'.",
+               "Assigning option '2' for parameter 'Geometry Stories'.",
+               "Assigning option '2' for parameter 'Geometry Stories Low Rise'.",
+               "Assigning option '<8' for parameter 'Geometry Story Bin'.",
+               "Assigning option 'Vinyl, Light' for parameter 'Geometry Wall Exterior Finish'.",
+               "Assigning option 'Wood Frame' for parameter 'Geometry Wall Type'.",
+               "Assigning option '1.1' for parameter 'Ground Thermal Conductivity'.",
+               "Assigning option 'AC, SEER 13' for parameter 'HVAC Cooling Efficiency'.",
+               "Assigning option '100% Conditioned' for parameter 'HVAC Cooling Partial Space Conditioning'.",
+               "Assigning option 'Central AC' for parameter 'HVAC Cooling Type'.",
+               "Assigning option 'Yes' for parameter 'HVAC Has Ducts'.",
+               "Assigning option 'None' for parameter 'HVAC Has Shared System'.",
+               "Assigning option 'No' for parameter 'HVAC Has Zonal Electric Heating'.",
+               "Assigning option 'Fuel Furnace, 80% AFUE' for parameter 'HVAC Heating Efficiency'.",
+               "Assigning option 'Ducted Heating' for parameter 'HVAC Heating Type'.",
+               "Assigning option 'Natural Gas Fuel Furnace' for parameter 'HVAC Heating Type And Fuel'.",
+               "Assigning option 'None' for parameter 'HVAC Secondary Heating Efficiency'.",
+               "Assigning option 'None' for parameter 'HVAC Secondary Heating Fuel'.",
+               "Assigning option 'None' for parameter 'HVAC Secondary Heating Partial Space Conditioning'.",
+               "Assigning option 'None' for parameter 'HVAC Shared Efficiencies'.",
+               "Assigning option 'No' for parameter 'HVAC System Is Faulted'.",
+               "Assigning option 'None' for parameter 'HVAC System Single Speed AC Airflow'.",
+               "Assigning option 'None' for parameter 'HVAC System Single Speed AC Charge'.",
+               "Assigning option 'None' for parameter 'HVAC System Single Speed ASHP Airflow'.",
+               "Assigning option 'None' for parameter 'HVAC System Single Speed ASHP Charge'.",
+               "Assigning option 'No' for parameter 'Has PV'.",
+               "Assigning option 'Natural Gas' for parameter 'Heating Fuel'.",
+               "Assigning option '72F' for parameter 'Heating Setpoint'.",
+               "Assigning option 'No' for parameter 'Heating Setpoint Has Offset'.",
+               "Assigning option '0F' for parameter 'Heating Setpoint Offset Magnitude'.",
+               "Assigning option 'None' for parameter 'Heating Setpoint Offset Period'.",
+               "Assigning option 'No Exterior Use' for parameter 'Holiday Lighting'.",
+               "Assigning option 'Uninsulated' for parameter 'Hot Water Distribution'.",
+               "Assigning option '100% Usage' for parameter 'Hot Water Fixtures'.",
+               "Assigning option 'No' for parameter 'Household Has Tribal Persons'.",
+               "Assigning option 'MISO' for parameter 'ISO RTO Region'.",
+               "Assigning option '70000-79999' for parameter 'Income'.",
+               "Assigning option '60000-79999' for parameter 'Income RECS2015'.",
+               "Assigning option '60000-99999' for parameter 'Income RECS2020'.",
+               "Assigning option '15 ACH50' for parameter 'Infiltration'.",
+               "Assigning option 'R-49' for parameter 'Insulation Ceiling'.",
+               "Assigning option 'Uninsulated' for parameter 'Insulation Floor'.",
+               "Assigning option 'Wall R-10, Exterior' for parameter 'Insulation Foundation Wall'.",
+               "Assigning option 'R-10, Exterior' for parameter 'Insulation Rim Joist'.",
+               "Assigning option 'Unfinished, Uninsulated' for parameter 'Insulation Roof'.",
+               "Assigning option 'None' for parameter 'Insulation Slab'.",
+               "Assigning option 'Wood Stud, R-19' for parameter 'Insulation Wall'.",
+               "Assigning option 'Summer = 0.7, Winter = 0.85' for parameter 'Interior Shading'.",
+               "Assigning option '100% Incandescent' for parameter 'Lighting'.",
+               "Assigning option '100% Usage' for parameter 'Lighting Interior Use'.",
+               "Assigning option '100% Usage' for parameter 'Lighting Other Use'.",
+               "Assigning option 'CR02' for parameter 'Location Region'.",
+               "Assigning option 'None' for parameter 'Mechanical Ventilation'.",
+               "Assigning option 'None' for parameter 'Misc Extra Refrigerator'.",
+               "Assigning option 'None' for parameter 'Misc Freezer'.",
+               "Assigning option 'None' for parameter 'Misc Gas Fireplace'.",
+               "Assigning option 'None' for parameter 'Misc Gas Grill'.",
+               "Assigning option 'None' for parameter 'Misc Gas Lighting'.",
+               "Assigning option 'None' for parameter 'Misc Hot Tub Spa'.",
+               "Assigning option 'None' for parameter 'Misc Pool'.",
+               "Assigning option 'None' for parameter 'Misc Pool Heater'.",
+               "Assigning option 'None' for parameter 'Misc Pool Pump'.",
+               "Assigning option 'None' for parameter 'Misc Well Pump'.",
+               "Assigning option 'Cooling Season, 7 days/wk' for parameter 'Natural Ventilation'.",
+               "Assigning option '27' for parameter 'Neighbors'.",
+               "Assigning option '2' for parameter 'Occupants'.",
+               "Assigning option 'South' for parameter 'Orientation'.",
+               "Assigning option 'None' for parameter 'Overhangs'.",
+               "Assigning option 'MN, 01000' for parameter 'PUMA'.",
+               "Assigning option 'In metro area, not/partially in principal city' for parameter 'PUMA Metro Status'.",
+               "Assigning option 'None' for parameter 'PV Orientation'.",
+               "Assigning option 'None' for parameter 'PV System Size'.",
+               "Assigning option '100%' for parameter 'Plug Load Diversity'.",
+               "Assigning option '113%' for parameter 'Plug Loads'.",
+               "Assigning option '43' for parameter 'REEDS Balancing Area'.",
+               "Assigning option 'No' for parameter 'Radiant Barrier'.",
+               "Assigning option 'Hour17' for parameter 'Range Spot Vent Hour'.",
+               "Assigning option 'EF 19.9' for parameter 'Refrigerator'.",
+               "Assigning option '100% Usage' for parameter 'Refrigerator Usage Level'.",
+               "Assigning option 'Composition Shingles' for parameter 'Roof Material'.",
+               "Assigning option 'None' for parameter 'Solar Hot Water'.",
+               "Assigning option 'MN' for parameter 'State'.",
+               "Assigning option 'Owner' for parameter 'Tenure'.",
+               "Assigning option 'Medium' for parameter 'Usage Level'.",
+               "Assigning option 'Occupied' for parameter 'Vacancy Status'.",
+               "Assigning option '2000s' for parameter 'Vintage'.",
+               "Assigning option '2000-09' for parameter 'Vintage ACS'.",
+               "Assigning option 'Natural Gas Standard' for parameter 'Water Heater Efficiency'.",
+               "Assigning option 'Natural Gas' for parameter 'Water Heater Fuel'.",
+               "Assigning option 'Yes' for parameter 'Water Heater In Unit'.",
+               "Assigning option 'Heated Basement' for parameter 'Water Heater Location'.",
+               "Assigning option 'F9 B9 L9 R9' for parameter 'Window Areas'.",
+               "Assigning option 'Double, Low-E, Non-metal, Air, M-Gain' for parameter 'Windows'.",
+               "Calling BuildResidentialHPXML measure with arguments:\nhpxml_path -> c:/Users/Arnav/Documents/Research/Trane Technologies/resstock-3.2.0_repo/resstock-3.2.0/minneapolis_upgrades_single_SFA_unit_residence/run4/run/existing.xml \nsimulation_control_daylight_saving_enabled -> true \nsite_shielding_of_home -> normal \nsite_ground_conductivity -> 1.1 \nsite_zip_code -> 55408 \nsite_iecc_zone -> 6A \nsite_state_code -> MN \nsite_time_zone_utc_offset -> -6 \nweather_station_epw_filepath -> ../../../weather/G2700530.epw \nyear_built -> 2000 \ngeometry_unit_type -> single-family attached \ngeometry_unit_aspect_ratio -> 0.5556 \ngeometry_unit_orientation -> 180.0 \ngeometry_unit_num_bedrooms -> 3 \ngeometry_unit_num_occupants -> 2 \ngeometry_building_num_units -> 8 \ngeometry_average_ceiling_height -> 8.0 \ngeometry_garage_width -> 0.0 \ngeometry_garage_depth -> 24.0 \ngeometry_garage_protrusion -> 0.5 \ngeometry_garage_position -> Right \ngeometry_foundation_type -> ConditionedBasement \ngeometry_foundation_height -> 8.0 \ngeometry_foundation_height_above_grade -> 1.0 \ngeometry_rim_joist_height -> 9.25 \ngeometry_attic_type -> VentedAttic \ngeometry_roof_type -> gable \ngeometry_roof_pitch -> 6:12 \ngeometry_eaves_depth -> 2.0 \nneighbor_front_distance -> 0.0 \nneighbor_back_distance -> 0.0 \nneighbor_left_distance -> 27.0 \nneighbor_right_distance -> 27.0 \nfloor_over_foundation_assembly_r -> 5.3 \nfloor_over_garage_assembly_r -> 5.3 \nfloor_type -> WoodFrame \nfoundation_wall_type -> solid concrete \nfoundation_wall_insulation_r -> 10.0 \nfoundation_wall_insulation_location -> exterior \nfoundation_wall_insulation_distance_to_top -> 0 \nrim_joist_assembly_r -> 13.1 \nslab_perimeter_insulation_r -> 0.0 \nslab_perimeter_depth -> 0.0 \nslab_under_insulation_r -> 0.0 \nslab_under_width -> 0.0 \nceiling_assembly_r -> 50.6 \nroof_material_type -> asphalt or fiberglass shingles \nroof_color -> medium \nroof_assembly_r -> 2.3 \nroof_radiant_barrier -> false \nroof_radiant_barrier_grade -> 1 \nwall_type -> WoodStud \nwall_siding_type -> vinyl siding \nwall_color -> light \nwall_assembly_r -> 16.0 \nwindow_front_wwr -> 0.09 \nwindow_back_wwr -> 0.09 \nwindow_left_wwr -> 0.09 \nwindow_right_wwr -> 0.09 \nwindow_area_front -> 0.0 \nwindow_area_back -> 0.0 \nwindow_area_left -> 0.0 \nwindow_area_right -> 0.0 \nwindow_aspect_ratio -> 1.333 \nwindow_fraction_operable -> 0.67 \nwindow_ufactor -> 0.38 \nwindow_shgc -> 0.44 \nwindow_interior_shading_winter -> 0.85 \nwindow_interior_shading_summer -> 0.7 \noverhangs_front_depth -> 0.0 \noverhangs_front_distance_to_top_of_window -> 0.0 \noverhangs_front_distance_to_bottom_of_window -> 4.0 \noverhangs_back_depth -> 0.0 \noverhangs_back_distance_to_top_of_window -> 0.0 \noverhangs_back_distance_to_bottom_of_window -> 4.0 \noverhangs_left_depth -> 0.0 \noverhangs_left_distance_to_top_of_window -> 0.0 \noverhangs_left_distance_to_bottom_of_window -> 4.0 \noverhangs_right_depth -> 0.0 \noverhangs_right_distance_to_top_of_window -> 0.0 \noverhangs_right_distance_to_bottom_of_window -> 4.0 \nskylight_area_front -> 0.0 \nskylight_area_back -> 0.0 \nskylight_area_left -> 0.0 \nskylight_area_right -> 0.0 \nskylight_ufactor -> 0.37 \nskylight_shgc -> 0.3 \ndoor_area -> 20.0 \ndoor_rvalue -> 5.0 \nair_leakage_units -> ACH \nair_leakage_house_pressure -> 50.0 \nair_leakage_value -> 12.24507787246547 \nair_leakage_type -> unit exterior only \nheating_system_type -> Furnace \nheating_system_fuel -> natural gas \nheating_system_heating_efficiency -> 0.8 \nheating_system_fraction_heat_load_served -> 1.0 \ncooling_system_type -> central air conditioner \ncooling_system_cooling_efficiency_type -> SEER \ncooling_system_cooling_efficiency -> 13.0 \ncooling_system_fraction_cool_load_served -> 1.0 \ncooling_system_is_ducted -> false \nheat_pump_type -> none \nheat_pump_heating_efficiency_type -> HSPF \nheat_pump_heating_efficiency -> 0.0 \nheat_pump_cooling_efficiency_type -> SEER \nheat_pump_cooling_efficiency -> 0.0 \nheat_pump_fraction_heat_load_served -> 1.0 \nheat_pump_fraction_cool_load_served -> 1.0 \nheat_pump_backup_type -> none \nheat_pump_backup_fuel -> electricity \nheat_pump_backup_heating_efficiency -> 1.0 \nheat_pump_sizing_methodology -> ACCA \nheating_system_2_type -> none \nheating_system_2_fuel -> electricity \nheating_system_2_heating_efficiency -> 0.0 \nheating_system_2_fraction_heat_load_served -> 0.0 \nducts_leakage_units -> Percent \nducts_supply_leakage_to_outside_value -> 0.0 \nducts_return_leakage_to_outside_value -> 0.0 \nducts_supply_location -> basement - conditioned \nducts_supply_insulation_r -> 0.0 \nducts_return_location -> basement - conditioned \nducts_return_insulation_r -> 0.0 \nmech_vent_fan_type -> none \nmech_vent_flow_rate -> 0 \nmech_vent_hours_in_operation -> 0 \nmech_vent_recovery_efficiency_type -> Unadjusted \nmech_vent_total_recovery_efficiency -> 0.0 \nmech_vent_sensible_recovery_efficiency -> 0.0 \nmech_vent_fan_power -> 0 \nmech_vent_num_units_served -> 0 \nmech_vent_2_fan_type -> none \nmech_vent_2_flow_rate -> 0.0 \nmech_vent_2_hours_in_operation -> 0.0 \nmech_vent_2_recovery_efficiency_type -> Unadjusted \nmech_vent_2_total_recovery_efficiency -> 0.0 \nmech_vent_2_sensible_recovery_efficiency -> 0.0 \nmech_vent_2_fan_power -> 0.0 \nkitchen_fans_start_hour -> 17 \nbathroom_fans_start_hour -> 23 \nwhole_house_fan_present -> false \nwhole_house_fan_flow_rate -> 0 \nwhole_house_fan_power -> 0 \nwater_heater_type -> storage water heater \nwater_heater_fuel_type -> natural gas \nwater_heater_location -> basement - conditioned \nwater_heater_efficiency_type -> EnergyFactor \nwater_heater_efficiency -> 0.59 \nwater_heater_recovery_efficiency -> 0.76 \nwater_heater_standby_loss -> 0 \nwater_heater_jacket_rvalue -> 0 \nwater_heater_setpoint_temperature -> 125 \nwater_heater_num_units_served -> 1 \nhot_water_distribution_system_type -> Standard \nhot_water_distribution_recirc_control_type -> no control \nhot_water_distribution_recirc_piping_length -> 0 \nhot_water_distribution_recirc_branch_piping_length -> 0 \nhot_water_distribution_recirc_pump_power -> 0 \nhot_water_distribution_pipe_r -> 0 \ndwhr_facilities_connected -> none \ndwhr_equal_flow -> true \ndwhr_efficiency -> 0.0 \nwater_fixtures_shower_low_flow -> false \nwater_fixtures_sink_low_flow -> false \nwater_fixtures_usage_multiplier -> 1.0 \nsolar_thermal_system_type -> none \nsolar_thermal_collector_area -> 40.0 \nsolar_thermal_collector_loop_type -> liquid indirect \nsolar_thermal_collector_type -> single glazing black \nsolar_thermal_collector_azimuth -> 180.0 \nsolar_thermal_collector_tilt -> roofpitch \nsolar_thermal_collector_rated_optical_efficiency -> 0.77 \nsolar_thermal_collector_rated_thermal_losses -> 0.793 \nsolar_thermal_solar_fraction -> 0.0 \npv_system_present -> false \npv_system_location -> roof \npv_system_array_azimuth -> 180.0 \npv_system_array_tilt -> roofpitch \npv_system_max_power_output -> 0.0 \npv_system_2_present -> false \npv_system_2_array_azimuth -> 0.0 \npv_system_2_array_tilt -> roofpitch \npv_system_2_max_power_output -> 0.0 \nbattery_present -> false \nlighting_present -> true \nlighting_interior_fraction_cfl -> 0.0 \nlighting_interior_fraction_lfl -> 0.0 \nlighting_interior_fraction_led -> 0.0 \nlighting_interior_usage_multiplier -> 1.0 \nlighting_exterior_fraction_cfl -> 0.0 \nlighting_exterior_fraction_lfl -> 0.0 \nlighting_exterior_fraction_led -> 0.0 \nlighting_exterior_usage_multiplier -> 1.0 \nlighting_garage_fraction_cfl -> 0.0 \nlighting_garage_fraction_lfl -> 0.0 \nlighting_garage_fraction_led -> 0.0 \nlighting_garage_usage_multiplier -> 1.0 \nholiday_lighting_present -> false \nholiday_lighting_daily_kwh -> 0 \ndehumidifier_type -> none \ndehumidifier_efficiency_type -> EnergyFactor \ndehumidifier_efficiency -> 0.0 \ndehumidifier_capacity -> 40.0 \ndehumidifier_rh_setpoint -> 0.5 \ndehumidifier_fraction_dehumidification_load_served -> 1.0 \nclothes_washer_present -> true \nclothes_washer_efficiency_type -> IntegratedModifiedEnergyFactor \nclothes_washer_efficiency -> 0.95 \nclothes_washer_rated_annual_kwh -> 387 \nclothes_washer_label_electric_rate -> 0.1065 \nclothes_washer_label_gas_rate -> 1.218 \nclothes_washer_label_annual_gas_cost -> 24 \nclothes_washer_label_usage -> 7.538462 \nclothes_washer_capacity -> 3.5 \nclothes_washer_usage_multiplier -> 1.0 \nclothes_dryer_present -> true \nclothes_dryer_fuel_type -> electricity \nclothes_dryer_efficiency_type -> CombinedEnergyFactor \nclothes_dryer_efficiency -> 2.70 \nclothes_dryer_usage_multiplier -> 1.0 \ndishwasher_present -> true \ndishwasher_efficiency_type -> RatedAnnualkWh \ndishwasher_efficiency -> 318 \ndishwasher_label_electric_rate -> 0.12 \ndishwasher_label_gas_rate -> 1.09 \ndishwasher_label_annual_gas_cost -> 25 \ndishwasher_label_usage -> 4 \ndishwasher_place_setting_capacity -> 12 \ndishwasher_usage_multiplier -> 1.0 \nrefrigerator_present -> true \nrefrigerator_rated_annual_kwh -> 383 \nrefrigerator_usage_multiplier -> 1.0 \nextra_refrigerator_present -> false \nextra_refrigerator_rated_annual_kwh -> 0 \nextra_refrigerator_usage_multiplier -> 0 \nfreezer_present -> false \nfreezer_rated_annual_kwh -> 0 \nfreezer_usage_multiplier -> 0 \ncooking_range_oven_present -> true \ncooking_range_oven_fuel_type -> electricity \ncooking_range_oven_is_induction -> false \ncooking_range_oven_usage_multiplier -> 1.0 \nceiling_fan_present -> true \nceiling_fan_efficiency -> 70.4 \nceiling_fan_quantity -> 1 \nceiling_fan_cooling_setpoint_temp_offset -> 0 \nmisc_plug_loads_television_present -> false \nmisc_plug_loads_other_annual_kwh -> 1937.3799999999999 \nmisc_plug_loads_other_frac_sensible -> 0.93 \nmisc_plug_loads_other_frac_latent -> 0.021 \nmisc_plug_loads_other_usage_multiplier -> 1.13 \nmisc_plug_loads_well_pump_present -> false \nmisc_plug_loads_well_pump_annual_kwh -> 0 \nmisc_plug_loads_well_pump_usage_multiplier -> 0.0 \nmisc_plug_loads_vehicle_present -> false \nmisc_plug_loads_vehicle_annual_kwh -> 0 \nmisc_plug_loads_vehicle_usage_multiplier -> 0.0 \nmisc_fuel_loads_grill_present -> false \nmisc_fuel_loads_grill_fuel_type -> natural gas \nmisc_fuel_loads_grill_annual_therm -> 0 \nmisc_fuel_loads_grill_usage_multiplier -> 0 \nmisc_fuel_loads_lighting_present -> false \nmisc_fuel_loads_lighting_fuel_type -> natural gas \nmisc_fuel_loads_lighting_annual_therm -> 0 \nmisc_fuel_loads_lighting_usage_multiplier -> 0 \nmisc_fuel_loads_fireplace_present -> false \nmisc_fuel_loads_fireplace_fuel_type -> natural gas \nmisc_fuel_loads_fireplace_annual_therm -> 0 \nmisc_fuel_loads_fireplace_usage_multiplier -> 0 \npool_present -> false \npool_pump_annual_kwh -> 0 \npool_pump_usage_multiplier -> 0 \npool_heater_type -> none \npool_heater_annual_kwh -> 0 \npool_heater_annual_therm -> 0 \npool_heater_usage_multiplier -> 0 \npermanent_spa_present -> false \npermanent_spa_pump_annual_kwh -> 0 \npermanent_spa_pump_usage_multiplier -> 0 \npermanent_spa_heater_type -> none \npermanent_spa_heater_annual_kwh -> 0 \npermanent_spa_heater_annual_therm -> 0 \npermanent_spa_heater_usage_multiplier -> 0 \ngeometry_unit_cfa -> 1678.0 \nmisc_plug_loads_television_annual_kwh -> 0.0 \nmisc_plug_loads_television_usage_multiplier -> 0.0 \npv_system_num_bedrooms_served -> 3 \nhvac_control_heating_weekday_setpoint -> 72.0, 72.0, 72.0, 72.0, 72.0, 72.0, 72.0, 72.0, 72.0, 72.0, 72.0, 72.0, 72.0, 72.0, 72.0, 72.0, 72.0, 72.0, 72.0, 72.0, 72.0, 72.0, 72.0, 72.0 \nhvac_control_heating_weekend_setpoint -> 72.0, 72.0, 72.0, 72.0, 72.0, 72.0, 72.0, 72.0, 72.0, 72.0, 72.0, 72.0, 72.0, 72.0, 72.0, 72.0, 72.0, 72.0, 72.0, 72.0, 72.0, 72.0, 72.0, 72.0 \nhvac_control_cooling_weekday_setpoint -> 75.0, 75.0, 75.0, 75.0, 75.0, 75.0, 75.0, 75.0, 75.0, 75.0, 75.0, 75.0, 75.0, 75.0, 75.0, 75.0, 75.0, 75.0, 75.0, 75.0, 75.0, 75.0, 75.0, 75.0 \nhvac_control_cooling_weekend_setpoint -> 75.0, 75.0, 75.0, 75.0, 75.0, 75.0, 75.0, 75.0, 75.0, 75.0, 75.0, 75.0, 75.0, 75.0, 75.0, 75.0, 75.0, 75.0, 75.0, 75.0, 75.0, 75.0, 75.0, 75.0 \ngeometry_unit_left_wall_is_adiabatic -> true \ngeometry_unit_right_wall_is_adiabatic -> true \ngeometry_unit_front_wall_is_adiabatic -> false \ngeometry_unit_back_wall_is_adiabatic -> false \ngeometry_unit_num_floors_above_grade -> 2 \nadditional_properties -> ceiling_insulation_r=49 \nsoftware_info_program_used -> ResStock \nsoftware_info_program_version -> 3.2.0 \nsimulation_control_timestep -> 60 \nsimulation_control_run_period -> Jan 1 - Dec 31 \nsimulation_control_run_period_calendar_year -> 2007 \napply_defaults -> true \napply_validation -> true \nemissions_scenario_names -> LRMER_MidCase_15 \nemissions_types -> CO2e \nemissions_electricity_units -> kg/MWh \nemissions_electricity_values_or_filepaths -> c:/Users/Arnav/Documents/Research/Trane Technologies/resstock-3.2.0_repo/resstock-3.2.0/lib/resources/data/cambium/2022/LRMER_MidCase_15/MROWc.csv \nemissions_fossil_fuel_units -> lb/MBtu \nemissions_natural_gas_values ->  \nemissions_propane_values ->  \nemissions_fuel_oil_values ->  \nemissions_wood_values ->  \nutility_bill_scenario_names -> Bills \nutility_bill_electricity_filepaths ->  \nutility_bill_electricity_fixed_charges ->  \nutility_bill_electricity_marginal_rates ->  \nutility_bill_natural_gas_fixed_charges ->  \nutility_bill_natural_gas_marginal_rates ->  \nutility_bill_propane_fixed_charges ->  \nutility_bill_propane_marginal_rates ->  \nutility_bill_fuel_oil_fixed_charges ->  \nutility_bill_fuel_oil_marginal_rates ->  \nutility_bill_wood_fixed_charges ->  \nutility_bill_wood_marginal_rates ->  \nutility_bill_pv_compensation_types ->  \nutility_bill_pv_net_metering_annual_excess_sellback_rate_types ->  \nutility_bill_pv_net_metering_annual_excess_sellback_rates ->  \nutility_bill_pv_feed_in_tariff_rates ->  \nutility_bill_pv_monthly_grid_connection_fee_units ->  \nutility_bill_pv_monthly_grid_connection_fees -> ",
+               "Wrote file: c:/Users/Arnav/Documents/Research/Trane Technologies/resstock-3.2.0_repo/resstock-3.2.0/minneapolis_upgrades_single_SFA_unit_residence/run4/run/existing.xml",
+               "Calling BuildResidentialScheduleFile measure with arguments:\nhpxml_path -> c:/Users/Arnav/Documents/Research/Trane Technologies/resstock-3.2.0_repo/resstock-3.2.0/minneapolis_upgrades_single_SFA_unit_residence/run4/run/existing.xml \nhpxml_output_path -> c:/Users/Arnav/Documents/Research/Trane Technologies/resstock-3.2.0_repo/resstock-3.2.0/minneapolis_upgrades_single_SFA_unit_residence/run4/run/existing.xml \nschedules_random_seed -> 1 \noutput_csv_path -> c:/Users/Arnav/Documents/Research/Trane Technologies/resstock-3.2.0_repo/resstock-3.2.0/minneapolis_upgrades_single_SFA_unit_residence/run4/run/schedules.csv",
+               "Retrieved the schedules random seed; setting it to 1.",
+               "Created stochastic schedule with SimYear=2007, MinutesPerStep=60, State=MN, RandomSeed=1, GeometryNumOccupants=2.0",
+               "Wrote file: c:/Users/Arnav/Documents/Research/Trane Technologies/resstock-3.2.0_repo/resstock-3.2.0/minneapolis_upgrades_single_SFA_unit_residence/run4/run/existing.xml"
+            ],
+            "step_result" : "Success",
+            "step_values" : 
+            [
+               {
+                  "name" : "building_id",
+                  "value" : 1
+               },
+               {
+                  "name" : "sample_weight",
+                  "value" : 139647020.0
+               },
+               {
+                  "name" : "simulation_control_timestep",
+                  "value" : 60
+               },
+               {
+                  "name" : "simulation_control_run_period_begin_month",
+                  "value" : 1
+               },
+               {
+                  "name" : "simulation_control_run_period_begin_day_of_month",
+                  "value" : 1
+               },
+               {
+                  "name" : "simulation_control_run_period_end_month",
+                  "value" : 12
+               },
+               {
+                  "name" : "simulation_control_run_period_end_day_of_month",
+                  "value" : 31
+               },
+               {
+                  "name" : "simulation_control_run_period_calendar_year",
+                  "value" : 2007
+               },
+               {
+                  "name" : "emissions_scenario_names",
+                  "value" : "LRMER_MidCase_15"
+               },
+               {
+                  "name" : "emissions_types",
+                  "value" : "CO2e"
+               },
+               {
+                  "name" : "emissions_electricity_folders",
+                  "value" : "data/cambium/2022/LRMER_MidCase_15"
+               },
+               {
+                  "name" : "emissions_natural_gas_values",
+                  "value" : ""
+               },
+               {
+                  "name" : "emissions_propane_values",
+                  "value" : ""
+               },
+               {
+                  "name" : "emissions_fuel_oil_values",
+                  "value" : ""
+               },
+               {
+                  "name" : "emissions_wood_values",
+                  "value" : ""
+               },
+               {
+                  "name" : "utility_bill_scenario_names",
+                  "value" : "Bills"
+               },
+               {
+                  "name" : "utility_bill_simple_filepaths",
+                  "value" : ""
+               },
+               {
+                  "name" : "utility_bill_detailed_filepaths",
+                  "value" : ""
+               },
+               {
+                  "name" : "ahs_region",
+                  "value" : "Non-CBSA West North Central"
+               },
+               {
+                  "name" : "aiannh_area",
+                  "value" : "No"
+               },
+               {
+                  "name" : "ashrae_iecc_climate_zone_2004",
+                  "value" : "6A"
+               },
+               {
+                  "name" : "ashrae_iecc_climate_zone_2004_2_a_split",
+                  "value" : "6A"
+               },
+               {
+                  "name" : "area_median_income",
+                  "value" : "100-120%"
+               },
+               {
+                  "name" : "bathroom_spot_vent_hour",
+                  "value" : "Hour23"
+               },
+               {
+                  "name" : "battery",
+                  "value" : "None"
+               },
+               {
+                  "name" : "bedrooms",
+                  "value" : "3"
+               },
+               {
+                  "name" : "building_america_climate_zone",
+                  "value" : "Cold"
+               },
+               {
+                  "name" : "cec_climate_zone",
+                  "value" : "None"
+               },
+               {
+                  "name" : "ceiling_fan",
+                  "value" : "Standard Efficiency"
+               },
+               {
+                  "name" : "census_division",
+                  "value" : "West North Central"
+               },
+               {
+                  "name" : "census_division_recs",
+                  "value" : "West North Central"
+               },
+               {
+                  "name" : "census_region",
+                  "value" : "Midwest"
+               },
+               {
+                  "name" : "city",
+                  "value" : "MN, Minneapolis"
+               },
+               {
+                  "name" : "clothes_dryer",
+                  "value" : "Electric"
+               },
+               {
+                  "name" : "clothes_dryer_usage_level",
+                  "value" : "100% Usage"
+               },
+               {
+                  "name" : "clothes_washer",
+                  "value" : "Standard"
+               },
+               {
+                  "name" : "clothes_washer_presence",
+                  "value" : "Yes"
+               },
+               {
+                  "name" : "clothes_washer_usage_level",
+                  "value" : "100% Usage"
+               },
+               {
+                  "name" : "cooking_range",
+                  "value" : "Electric Resistance"
+               },
+               {
+                  "name" : "cooking_range_usage_level",
+                  "value" : "100% Usage"
+               },
+               {
+                  "name" : "cooling_setpoint",
+                  "value" : "75F"
+               },
+               {
+                  "name" : "cooling_setpoint_has_offset",
+                  "value" : "No"
+               },
+               {
+                  "name" : "cooling_setpoint_offset_magnitude",
+                  "value" : "0F"
+               },
+               {
+                  "name" : "cooling_setpoint_offset_period",
+                  "value" : "None"
+               },
+               {
+                  "name" : "corridor",
+                  "value" : "Not Applicable"
+               },
+               {
+                  "name" : "county",
+                  "value" : "MN, Hennepin County"
+               },
+               {
+                  "name" : "county_and_puma",
+                  "value" : "G2701410, G27001000"
+               },
+               {
+                  "name" : "dehumidifier",
+                  "value" : "None"
+               },
+               {
+                  "name" : "dishwasher",
+                  "value" : "318 Rated kWh"
+               },
+               {
+                  "name" : "dishwasher_usage_level",
+                  "value" : "100% Usage"
+               },
+               {
+                  "name" : "door_area",
+                  "value" : "20 ft^2"
+               },
+               {
+                  "name" : "doors",
+                  "value" : "Fiberglass"
+               },
+               {
+                  "name" : "duct_leakage_and_insulation",
+                  "value" : "0% Leakage to Outside, Uninsulated"
+               },
+               {
+                  "name" : "duct_location",
+                  "value" : "Heated Basement"
+               },
+               {
+                  "name" : "eaves",
+                  "value" : "2 ft"
+               },
+               {
+                  "name" : "electric_vehicle",
+                  "value" : "None"
+               },
+               {
+                  "name" : "energystar_climate_zone_2023",
+                  "value" : "Northern"
+               },
+               {
+                  "name" : "federal_poverty_level",
+                  "value" : "400%+"
+               },
+               {
+                  "name" : "generation_and_emissions_assessment_region",
+                  "value" : "MROWc"
+               },
+               {
+                  "name" : "geometry_attic_type",
+                  "value" : "Vented Attic"
+               },
+               {
+                  "name" : "geometry_building_horizontal_location_mf",
+                  "value" : "None"
+               },
+               {
+                  "name" : "geometry_building_horizontal_location_sfa",
+                  "value" : "Middle"
+               },
+               {
+                  "name" : "geometry_building_level_mf",
+                  "value" : "None"
+               },
+               {
+                  "name" : "geometry_building_number_units_mf",
+                  "value" : "None"
+               },
+               {
+                  "name" : "geometry_building_number_units_sfa",
+                  "value" : "8"
+               },
+               {
+                  "name" : "geometry_building_type_acs",
+                  "value" : "Single-Family Attached"
+               },
+               {
+                  "name" : "geometry_building_type_height",
+                  "value" : "Single-Family Attached"
+               },
+               {
+                  "name" : "geometry_building_type_recs",
+                  "value" : "Single-Family Attached"
+               },
+               {
+                  "name" : "geometry_floor_area",
+                  "value" : "1500-1999"
+               },
+               {
+                  "name" : "geometry_floor_area_bin",
+                  "value" : "1500-2499"
+               },
+               {
+                  "name" : "geometry_foundation_type",
+                  "value" : "Heated Basement"
+               },
+               {
+                  "name" : "geometry_garage",
+                  "value" : "None"
+               },
+               {
+                  "name" : "geometry_space_combination",
+                  "value" : "Single-Family Attached, Heated Basement, Vented Attic, No Garage"
+               },
+               {
+                  "name" : "geometry_stories",
+                  "value" : "2"
+               },
+               {
+                  "name" : "geometry_stories_low_rise",
+                  "value" : "2"
+               },
+               {
+                  "name" : "geometry_story_bin",
+                  "value" : "<8"
+               },
+               {
+                  "name" : "geometry_wall_exterior_finish",
+                  "value" : "Vinyl, Light"
+               },
+               {
+                  "name" : "geometry_wall_type",
+                  "value" : "Wood Frame"
+               },
+               {
+                  "name" : "ground_thermal_conductivity",
+                  "value" : "1.1"
+               },
+               {
+                  "name" : "hvac_cooling_efficiency",
+                  "value" : "AC, SEER 13"
+               },
+               {
+                  "name" : "hvac_cooling_partial_space_conditioning",
+                  "value" : "100% Conditioned"
+               },
+               {
+                  "name" : "hvac_cooling_type",
+                  "value" : "Central AC"
+               },
+               {
+                  "name" : "hvac_has_ducts",
+                  "value" : "Yes"
+               },
+               {
+                  "name" : "hvac_has_shared_system",
+                  "value" : "None"
+               },
+               {
+                  "name" : "hvac_has_zonal_electric_heating",
+                  "value" : "No"
+               },
+               {
+                  "name" : "hvac_heating_efficiency",
+                  "value" : "Fuel Furnace, 80% AFUE"
+               },
+               {
+                  "name" : "hvac_heating_type",
+                  "value" : "Ducted Heating"
+               },
+               {
+                  "name" : "hvac_heating_type_and_fuel",
+                  "value" : "Natural Gas Fuel Furnace"
+               },
+               {
+                  "name" : "hvac_secondary_heating_efficiency",
+                  "value" : "None"
+               },
+               {
+                  "name" : "hvac_secondary_heating_fuel",
+                  "value" : "None"
+               },
+               {
+                  "name" : "hvac_secondary_heating_partial_space_conditioning",
+                  "value" : "None"
+               },
+               {
+                  "name" : "hvac_shared_efficiencies",
+                  "value" : "None"
+               },
+               {
+                  "name" : "hvac_system_is_faulted",
+                  "value" : "No"
+               },
+               {
+                  "name" : "hvac_system_single_speed_ac_airflow",
+                  "value" : "None"
+               },
+               {
+                  "name" : "hvac_system_single_speed_ac_charge",
+                  "value" : "None"
+               },
+               {
+                  "name" : "hvac_system_single_speed_ashp_airflow",
+                  "value" : "None"
+               },
+               {
+                  "name" : "hvac_system_single_speed_ashp_charge",
+                  "value" : "None"
+               },
+               {
+                  "name" : "has_pv",
+                  "value" : "No"
+               },
+               {
+                  "name" : "heating_fuel",
+                  "value" : "Natural Gas"
+               },
+               {
+                  "name" : "heating_setpoint",
+                  "value" : "72F"
+               },
+               {
+                  "name" : "heating_setpoint_has_offset",
+                  "value" : "No"
+               },
+               {
+                  "name" : "heating_setpoint_offset_magnitude",
+                  "value" : "0F"
+               },
+               {
+                  "name" : "heating_setpoint_offset_period",
+                  "value" : "None"
+               },
+               {
+                  "name" : "holiday_lighting",
+                  "value" : "No Exterior Use"
+               },
+               {
+                  "name" : "hot_water_distribution",
+                  "value" : "Uninsulated"
+               },
+               {
+                  "name" : "hot_water_fixtures",
+                  "value" : "100% Usage"
+               },
+               {
+                  "name" : "household_has_tribal_persons",
+                  "value" : "No"
+               },
+               {
+                  "name" : "iso_rto_region",
+                  "value" : "MISO"
+               },
+               {
+                  "name" : "income",
+                  "value" : "70000-79999"
+               },
+               {
+                  "name" : "income_recs_2015",
+                  "value" : "60000-79999"
+               },
+               {
+                  "name" : "income_recs_2020",
+                  "value" : "60000-99999"
+               },
+               {
+                  "name" : "infiltration",
+                  "value" : "15 ACH50"
+               },
+               {
+                  "name" : "insulation_ceiling",
+                  "value" : "R-49"
+               },
+               {
+                  "name" : "insulation_floor",
+                  "value" : "Uninsulated"
+               },
+               {
+                  "name" : "insulation_foundation_wall",
+                  "value" : "Wall R-10, Exterior"
+               },
+               {
+                  "name" : "insulation_rim_joist",
+                  "value" : "R-10, Exterior"
+               },
+               {
+                  "name" : "insulation_roof",
+                  "value" : "Unfinished, Uninsulated"
+               },
+               {
+                  "name" : "insulation_slab",
+                  "value" : "None"
+               },
+               {
+                  "name" : "insulation_wall",
+                  "value" : "Wood Stud, R-19"
+               },
+               {
+                  "name" : "interior_shading",
+                  "value" : "Summer = 0.7, Winter = 0.85"
+               },
+               {
+                  "name" : "lighting",
+                  "value" : "100% Incandescent"
+               },
+               {
+                  "name" : "lighting_interior_use",
+                  "value" : "100% Usage"
+               },
+               {
+                  "name" : "lighting_other_use",
+                  "value" : "100% Usage"
+               },
+               {
+                  "name" : "location_region",
+                  "value" : "CR02"
+               },
+               {
+                  "name" : "mechanical_ventilation",
+                  "value" : "None"
+               },
+               {
+                  "name" : "misc_extra_refrigerator",
+                  "value" : "None"
+               },
+               {
+                  "name" : "misc_freezer",
+                  "value" : "None"
+               },
+               {
+                  "name" : "misc_gas_fireplace",
+                  "value" : "None"
+               },
+               {
+                  "name" : "misc_gas_grill",
+                  "value" : "None"
+               },
+               {
+                  "name" : "misc_gas_lighting",
+                  "value" : "None"
+               },
+               {
+                  "name" : "misc_hot_tub_spa",
+                  "value" : "None"
+               },
+               {
+                  "name" : "misc_pool",
+                  "value" : "None"
+               },
+               {
+                  "name" : "misc_pool_heater",
+                  "value" : "None"
+               },
+               {
+                  "name" : "misc_pool_pump",
+                  "value" : "None"
+               },
+               {
+                  "name" : "misc_well_pump",
+                  "value" : "None"
+               },
+               {
+                  "name" : "natural_ventilation",
+                  "value" : "Cooling Season, 7 days/wk"
+               },
+               {
+                  "name" : "neighbors",
+                  "value" : "27"
+               },
+               {
+                  "name" : "occupants",
+                  "value" : "2"
+               },
+               {
+                  "name" : "orientation",
+                  "value" : "South"
+               },
+               {
+                  "name" : "overhangs",
+                  "value" : "None"
+               },
+               {
+                  "name" : "puma",
+                  "value" : "MN, 01000"
+               },
+               {
+                  "name" : "puma_metro_status",
+                  "value" : "In metro area, not/partially in principal city"
+               },
+               {
+                  "name" : "pv_orientation",
+                  "value" : "None"
+               },
+               {
+                  "name" : "pv_system_size",
+                  "value" : "None"
+               },
+               {
+                  "name" : "plug_load_diversity",
+                  "value" : "100%"
+               },
+               {
+                  "name" : "plug_loads",
+                  "value" : "113%"
+               },
+               {
+                  "name" : "reeds_balancing_area",
+                  "value" : "43"
+               },
+               {
+                  "name" : "radiant_barrier",
+                  "value" : "No"
+               },
+               {
+                  "name" : "range_spot_vent_hour",
+                  "value" : "Hour17"
+               },
+               {
+                  "name" : "refrigerator",
+                  "value" : "EF 19.9"
+               },
+               {
+                  "name" : "refrigerator_usage_level",
+                  "value" : "100% Usage"
+               },
+               {
+                  "name" : "roof_material",
+                  "value" : "Composition Shingles"
+               },
+               {
+                  "name" : "solar_hot_water",
+                  "value" : "None"
+               },
+               {
+                  "name" : "state",
+                  "value" : "MN"
+               },
+               {
+                  "name" : "tenure",
+                  "value" : "Owner"
+               },
+               {
+                  "name" : "usage_level",
+                  "value" : "Medium"
+               },
+               {
+                  "name" : "vacancy_status",
+                  "value" : "Occupied"
+               },
+               {
+                  "name" : "vintage",
+                  "value" : "2000s"
+               },
+               {
+                  "name" : "vintage_acs",
+                  "value" : "2000-09"
+               },
+               {
+                  "name" : "water_heater_efficiency",
+                  "value" : "Natural Gas Standard"
+               },
+               {
+                  "name" : "water_heater_fuel",
+                  "value" : "Natural Gas"
+               },
+               {
+                  "name" : "water_heater_in_unit",
+                  "value" : "Yes"
+               },
+               {
+                  "name" : "water_heater_location",
+                  "value" : "Heated Basement"
+               },
+               {
+                  "name" : "window_areas",
+                  "value" : "F9 B9 L9 R9"
+               },
+               {
+                  "name" : "windows",
+                  "value" : "Double, Low-E, Non-metal, Air, M-Gain"
+               },
+               {
+                  "name" : "emissions_electricity_units",
+                  "value" : "kg/MWh"
+               },
+               {
+                  "name" : "emissions_electricity_values_or_filepaths",
+                  "value" : "c:/Users/Arnav/Documents/Research/Trane Technologies/resstock-3.2.0_repo/resstock-3.2.0/lib/resources/data/cambium/2022/LRMER_MidCase_15/MROWc.csv"
+               },
+               {
+                  "name" : "emissions_fossil_fuel_units",
+                  "value" : "lb/MBtu"
+               },
+               {
+                  "name" : "utility_bill_electricity_filepaths",
+                  "value" : ""
+               },
+               {
+                  "name" : "utility_bill_electricity_fixed_charges",
+                  "value" : ""
+               },
+               {
+                  "name" : "utility_bill_electricity_marginal_rates",
+                  "value" : ""
+               },
+               {
+                  "name" : "utility_bill_natural_gas_fixed_charges",
+                  "value" : ""
+               },
+               {
+                  "name" : "utility_bill_natural_gas_marginal_rates",
+                  "value" : ""
+               },
+               {
+                  "name" : "utility_bill_propane_fixed_charges",
+                  "value" : ""
+               },
+               {
+                  "name" : "utility_bill_propane_marginal_rates",
+                  "value" : ""
+               },
+               {
+                  "name" : "utility_bill_fuel_oil_fixed_charges",
+                  "value" : ""
+               },
+               {
+                  "name" : "utility_bill_fuel_oil_marginal_rates",
+                  "value" : ""
+               },
+               {
+                  "name" : "utility_bill_wood_fixed_charges",
+                  "value" : ""
+               },
+               {
+                  "name" : "utility_bill_wood_marginal_rates",
+                  "value" : ""
+               },
+               {
+                  "name" : "utility_bill_pv_compensation_types",
+                  "value" : ""
+               },
+               {
+                  "name" : "utility_bill_pv_net_metering_annual_excess_sellback_rate_types",
+                  "value" : ""
+               },
+               {
+                  "name" : "utility_bill_pv_net_metering_annual_excess_sellback_rates",
+                  "value" : ""
+               },
+               {
+                  "name" : "utility_bill_pv_feed_in_tariff_rates",
+                  "value" : ""
+               },
+               {
+                  "name" : "utility_bill_pv_monthly_grid_connection_fee_units",
+                  "value" : ""
+               },
+               {
+                  "name" : "utility_bill_pv_monthly_grid_connection_fees",
+                  "value" : ""
+               },
+               {
+                  "name" : "weather_file_city",
+                  "value" : "Minneapolis Crystal"
+               },
+               {
+                  "name" : "weather_file_latitude",
+                  "value" : 45.07
+               },
+               {
+                  "name" : "weather_file_longitude",
+                  "value" : -93.349999999999994
+               }
+            ],
+            "step_warnings" : 
+            [
+               "The model contains existing objects and is being reset."
+            ]
+         }
+      },
+      {
+         "arguments" : 
+         {
+            "option_1" : "HVAC Heating Efficiency|MSHP, SEER 25, 12.7 HSPF",
+            "option_1_cost_1_multiplier" : "Size, Heating System Primary (kBtu/h)",
+            "option_1_cost_1_value" : 50,
+            "option_1_lifetime" : 30,
+            "option_2" : "HVAC Cooling Efficiency|Non-Ducted Heat Pump",
+            "option_3" : "Heat Pump Backup|Use Existing System",
+            "package_apply_logic" : "(HVAC Has Ducts|No)",
+            "run_measure" : 1,
+            "upgrade_name" : "MSHP w/o Ducts"
+         },
+         "measure_dir_name" : "ApplyUpgrade",
+         "result" : 
+         {
+            "completed_at" : "20240810T031728Z",
+            "measure_class_name" : "ApplyUpgrade",
+            "measure_display_name" : "Apply Upgrade",
+            "measure_name" : "apply_upgrade",
+            "measure_taxonomy" : "Whole Building.Space Types",
+            "measure_type" : "ModelMeasure",
+            "measure_uid" : "33f1654c-f734-43d1-b35d-9d2856e41b5a",
+            "measure_version_id" : "21302f9b-57a8-45d7-b393-c1a1eee78aa5",
+            "measure_version_modified" : "20231128T233410Z",
+            "measure_xml_checksum" : "9339BE01",
+            "started_at" : "20240810T031724Z",
+            "stderr" : "",
+            "stdout" : "",
+            "step_errors" : [],
+            "step_files" : [],
+            "step_info" : 
+            [
+               "Evaluating logic: (HVAC Has Ducts|No).",
+               "Converted to Ruby: ('Yes'=='No').",
+               "Ruby Evaluation: false."
+            ],
+            "step_result" : "Success",
+            "step_values" : 
+            [
+               {
+                  "name" : "option_1",
+                  "value" : "HVAC Heating Efficiency|MSHP, SEER 25, 12.7 HSPF"
+               },
+               {
+                  "name" : "option_1_cost_1_value",
+                  "value" : 50.0
+               },
+               {
+                  "name" : "option_1_cost_1_multiplier",
+                  "value" : "Size, Heating System Primary (kBtu/h)"
+               },
+               {
+                  "name" : "option_1_cost_2_multiplier",
+                  "value" : ""
+               },
+               {
+                  "name" : "option_1_lifetime",
+                  "value" : 30.0
+               },
+               {
+                  "name" : "option_2",
+                  "value" : "HVAC Cooling Efficiency|Non-Ducted Heat Pump"
+               },
+               {
+                  "name" : "option_2_cost_1_multiplier",
+                  "value" : ""
+               },
+               {
+                  "name" : "option_2_cost_2_multiplier",
+                  "value" : ""
+               },
+               {
+                  "name" : "option_3",
+                  "value" : "Heat Pump Backup|Use Existing System"
+               },
+               {
+                  "name" : "option_3_cost_1_multiplier",
+                  "value" : ""
+               },
+               {
+                  "name" : "option_3_cost_2_multiplier",
+                  "value" : ""
+               },
+               {
+                  "name" : "option_4_cost_1_multiplier",
+                  "value" : ""
+               },
+               {
+                  "name" : "option_4_cost_2_multiplier",
+                  "value" : ""
+               },
+               {
+                  "name" : "option_5_cost_1_multiplier",
+                  "value" : ""
+               },
+               {
+                  "name" : "option_5_cost_2_multiplier",
+                  "value" : ""
+               },
+               {
+                  "name" : "option_6_cost_1_multiplier",
+                  "value" : ""
+               },
+               {
+                  "name" : "option_6_cost_2_multiplier",
+                  "value" : ""
+               },
+               {
+                  "name" : "option_7_cost_1_multiplier",
+                  "value" : ""
+               },
+               {
+                  "name" : "option_7_cost_2_multiplier",
+                  "value" : ""
+               },
+               {
+                  "name" : "option_8_cost_1_multiplier",
+                  "value" : ""
+               },
+               {
+                  "name" : "option_8_cost_2_multiplier",
+                  "value" : ""
+               },
+               {
+                  "name" : "option_9_cost_1_multiplier",
+                  "value" : ""
+               },
+               {
+                  "name" : "option_9_cost_2_multiplier",
+                  "value" : ""
+               },
+               {
+                  "name" : "option_10_cost_1_multiplier",
+                  "value" : ""
+               },
+               {
+                  "name" : "option_10_cost_2_multiplier",
+                  "value" : ""
+               },
+               {
+                  "name" : "option_11_cost_1_multiplier",
+                  "value" : ""
+               },
+               {
+                  "name" : "option_11_cost_2_multiplier",
+                  "value" : ""
+               },
+               {
+                  "name" : "option_12_cost_1_multiplier",
+                  "value" : ""
+               },
+               {
+                  "name" : "option_12_cost_2_multiplier",
+                  "value" : ""
+               },
+               {
+                  "name" : "option_13_cost_1_multiplier",
+                  "value" : ""
+               },
+               {
+                  "name" : "option_13_cost_2_multiplier",
+                  "value" : ""
+               },
+               {
+                  "name" : "option_14_cost_1_multiplier",
+                  "value" : ""
+               },
+               {
+                  "name" : "option_14_cost_2_multiplier",
+                  "value" : ""
+               },
+               {
+                  "name" : "option_15_cost_1_multiplier",
+                  "value" : ""
+               },
+               {
+                  "name" : "option_15_cost_2_multiplier",
+                  "value" : ""
+               },
+               {
+                  "name" : "option_16_cost_1_multiplier",
+                  "value" : ""
+               },
+               {
+                  "name" : "option_16_cost_2_multiplier",
+                  "value" : ""
+               },
+               {
+                  "name" : "option_17_cost_1_multiplier",
+                  "value" : ""
+               },
+               {
+                  "name" : "option_17_cost_2_multiplier",
+                  "value" : ""
+               },
+               {
+                  "name" : "option_18_cost_1_multiplier",
+                  "value" : ""
+               },
+               {
+                  "name" : "option_18_cost_2_multiplier",
+                  "value" : ""
+               },
+               {
+                  "name" : "option_19_cost_1_multiplier",
+                  "value" : ""
+               },
+               {
+                  "name" : "option_19_cost_2_multiplier",
+                  "value" : ""
+               },
+               {
+                  "name" : "option_20_cost_1_multiplier",
+                  "value" : ""
+               },
+               {
+                  "name" : "option_20_cost_2_multiplier",
+                  "value" : ""
+               },
+               {
+                  "name" : "option_21_cost_1_multiplier",
+                  "value" : ""
+               },
+               {
+                  "name" : "option_21_cost_2_multiplier",
+                  "value" : ""
+               },
+               {
+                  "name" : "option_22_cost_1_multiplier",
+                  "value" : ""
+               },
+               {
+                  "name" : "option_22_cost_2_multiplier",
+                  "value" : ""
+               },
+               {
+                  "name" : "option_23_cost_1_multiplier",
+                  "value" : ""
+               },
+               {
+                  "name" : "option_23_cost_2_multiplier",
+                  "value" : ""
+               },
+               {
+                  "name" : "option_24_cost_1_multiplier",
+                  "value" : ""
+               },
+               {
+                  "name" : "option_24_cost_2_multiplier",
+                  "value" : ""
+               },
+               {
+                  "name" : "option_25_cost_1_multiplier",
+                  "value" : ""
+               },
+               {
+                  "name" : "option_25_cost_2_multiplier",
+                  "value" : ""
+               },
+               {
+                  "name" : "package_apply_logic",
+                  "value" : "(HVAC Has Ducts|No)"
+               },
+               {
+                  "name" : "run_measure",
+                  "value" : 1
+               },
+               {
+                  "name" : "upgrade_name",
+                  "value" : "MSHP w/o Ducts"
+               }
+            ],
+            "step_warnings" : []
+         }
+      },
+      {
+         "arguments" : 
+         {
+            "add_component_loads" : false,
+            "debug" : false,
+            "hpxml_path" : "c:/Users/Arnav/Documents/Research/Trane Technologies/resstock-3.2.0_repo/resstock-3.2.0/minneapolis_upgrades_single_SFA_unit_residence/run4/run/home.xml",
+            "output_dir" : "c:/Users/Arnav/Documents/Research/Trane Technologies/resstock-3.2.0_repo/resstock-3.2.0/minneapolis_upgrades_single_SFA_unit_residence/run4/run",
+            "skip_validation" : true
+         },
+         "measure_dir_name" : "HPXMLtoOpenStudio"
+      },
+      {
+         "arguments" : 
+         {
+            "add_timeseries_dst_column" : true,
+            "add_timeseries_utc_column" : true,
+            "include_annual_component_loads" : true,
+            "include_annual_emission_end_uses" : true,
+            "include_annual_emission_fuels" : true,
+            "include_annual_emissions" : true,
+            "include_annual_end_use_consumptions" : true,
+            "include_annual_fuel_consumptions" : true,
+            "include_annual_hot_water_uses" : true,
+            "include_annual_hvac_summary" : true,
+            "include_annual_peak_fuels" : true,
+            "include_annual_peak_loads" : true,
+            "include_annual_resilience" : true,
+            "include_annual_system_use_consumptions" : false,
+            "include_annual_total_consumptions" : true,
+            "include_annual_total_loads" : true,
+            "include_annual_unmet_hours" : true,
+            "include_timeseries_airflows" : true,
+            "include_timeseries_component_loads" : true,
+            "include_timeseries_emission_end_uses" : true,
+            "include_timeseries_emission_fuels" : true,
+            "include_timeseries_emissions" : true,
+            "include_timeseries_end_use_consumptions" : true,
+            "include_timeseries_fuel_consumptions" : true,
+            "include_timeseries_hot_water_uses" : true,
+            "include_timeseries_resilience" : true,
+            "include_timeseries_system_use_consumptions" : false,
+            "include_timeseries_total_consumptions" : true,
+            "include_timeseries_total_loads" : true,
+            "include_timeseries_unmet_hours" : true,
+            "include_timeseries_weather" : true,
+            "include_timeseries_zone_temperatures" : true,
+            "output_format" : "csv",
+            "timeseries_frequency" : "hourly",
+            "timeseries_num_decimal_places" : 3,
+            "timeseries_timestamp_convention" : "end"
+         },
+         "measure_dir_name" : "ReportSimulationOutput"
+      },
+      {
+         "arguments" : 
+         {
+            "output_format" : "csv"
+         },
+         "measure_dir_name" : "ReportHPXMLOutput"
+      },
+      {
+         "arguments" : 
+         {
+            "include_annual_bills" : true,
+            "include_monthly_bills" : false,
+            "output_format" : "csv"
+         },
+         "measure_dir_name" : "ReportUtilityBills"
+      },
+      {
+         "arguments" : 
+         {
+            "debug" : false
+         },
+         "measure_dir_name" : "UpgradeCosts"
+      },
+      {
+         "arguments" : {},
+         "measure_dir_name" : "QOIReport"
+      },
+      {
+         "arguments" : 
+         {
+            "debug" : false,
+            "retain_eplusout_audit" : false,
+            "retain_eplusout_bnd" : false,
+            "retain_eplusout_eio" : false,
+            "retain_eplusout_end" : false,
+            "retain_eplusout_err" : false,
+            "retain_eplusout_eso" : false,
+            "retain_eplusout_mdd" : false,
+            "retain_eplusout_msgpack" : false,
+            "retain_eplusout_mtd" : false,
+            "retain_eplusout_rdd" : false,
+            "retain_eplusout_shd" : false,
+            "retain_eplustbl_htm" : false,
+            "retain_in_idf" : false,
+            "retain_in_osm" : false,
+            "retain_pre_process_idf" : false,
+            "retain_schedules_csv" : false,
+            "retain_stdout_energyplus" : false,
+            "retain_stdout_expandobject" : false
+         },
+         "measure_dir_name" : "ServerDirectoryCleanup"
+      }
+   ],
+   "updated_at" : "20240810T031729Z"
+}
