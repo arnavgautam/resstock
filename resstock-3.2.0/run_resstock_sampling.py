@@ -1,6 +1,6 @@
 import os
 import subprocess
-from os.path import join
+from os.path import join, exists
 import pandas as pd
 import numpy as np
 from shutil import copyfile
@@ -9,11 +9,13 @@ building_unit_type_to_resstock_category = {"2": 'Multi-Family with 2 - 4 Units',
 
 # parallel_resstock_processes = []
 for (unit_type, resstock_category) in building_unit_type_to_resstock_category.items():
-    source_ACS_file = join('project_columbus','housing_characteristics',f'Geometry Building Type ACS {unit_type}.tsv')
-    dest_ACS_file = join('project_columbus','housing_characteristics',f'Geometry Building Type ACS.tsv')
-    copyfile(source_ACS_file, dest_ACS_file)
-    subprocess.run(f"ruby {join('resources','run_sampling.rb')} -p project_columbus -n 1 -o {join('columbus', f'single_{unit_type}_unit_buildstock.csv')}")
-    # parallel_resstock_processes.append(subprocess.Popen
+    output_filepath = join('columbus', f'single_{unit_type}_unit_buildstock.csv')
+    if not exists(output_filepath):
+        source_ACS_file = join('project_columbus','housing_characteristics',f'Geometry Building Type ACS {unit_type}.tsv')
+        dest_ACS_file = join('project_columbus','housing_characteristics',f'Geometry Building Type ACS.tsv')
+        copyfile(source_ACS_file, dest_ACS_file)
+        subprocess.run(f"ruby {join('resources','run_sampling.rb')} -p project_columbus -n 1 -o {output_filepath}")
+        # parallel_resstock_processes.append(subprocess.Popen
 
 # for p in parallel_resstock_processes:
 #     p.wait()

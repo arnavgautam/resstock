@@ -13,7 +13,7 @@ require_relative '../resources/util'
 
 $start_time = Time.now
 
-def run_workflow(yml, in_threads, measures_only, debug_arg, overwrite, type_of_residence, building_ids, keep_run_folders, samplingonly)
+def run_workflow(yml, in_threads, measures_only, debug_arg, overwrite, city_name, type_of_residence, building_ids, keep_run_folders, samplingonly)
   if !File.exist?(yml)
     puts "Error: YML file does not exist at '#{yml}'."
     return false
@@ -78,7 +78,7 @@ def run_workflow(yml, in_threads, measures_only, debug_arg, overwrite, type_of_r
 
     datapoints = (1..n_datapoints).to_a
   else
-    srcpath = type_of_residence.empty? ? cfg['sampler']['args']['sample_file'] : File.join("..", "resources", "single_#{type_of_residence[0]}_unit_buildstock.csv")
+    srcpath = type_of_residence.empty? ? cfg['sampler']['args']['sample_file'] : File.join("..", "resources", city_name, "single_#{type_of_residence[0]}_unit_buildstock.csv")
     puts srcpath
     src = File.expand_path(File.join(File.dirname(yml), srcpath))
     des = File.expand_path(File.join(File.dirname(__FILE__), outfile))
@@ -630,6 +630,11 @@ OptionParser.new do |opts|
     options[:measures_only] = true
   end
 
+  options[:city] = []
+  opts.on('-c', '--city city_name', 'Running for this city') do |t|
+    options[:city] << t
+  end
+
   options[:type_of_residence] = []
   opts.on('-t', '--type_of_residence type_name', 'Use this unit type') do |t|
     options[:type_of_residence] << t
@@ -682,7 +687,7 @@ else
   # Run analysis
   puts "YML: #{options[:yml]}"
   success = run_workflow(options[:yml], options[:threads], options[:measures_only], options[:debug], options[:overwrite],
-                         options[:type_of_residence], options[:building_ids], options[:keep_run_folders], options[:samplingonly])
+                         options[:city], options[:type_of_residence], options[:building_ids], options[:keep_run_folders], options[:samplingonly])
 
   puts "\nCompleted in #{get_elapsed_time(Time.now, $start_time)}." if success
 end
