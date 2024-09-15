@@ -1,0 +1,6 @@
+Dependency=ASHRAE IECC Climate Zone 2004	Option=G3900490, G39004101	source_count	source_weight	sampling_probability
+5A	1	2.40817e+06	3.02116e+07	0.225367
+# Created by: sources\spatial\tsv_maker.py
+# Description: The GISJOIN identifier for the County and the Public Use Microdata Area that the sample is located.
+# Source: Spatial definitions are from the U.S. Census Bureau as of July 1, 2015.
+# Source: Unit counts are from the American Community Survey 5-yr 2016.

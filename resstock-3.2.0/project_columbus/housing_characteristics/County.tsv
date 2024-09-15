@@ -1,0 +1,6 @@
+Dependency=County and PUMA	Option=OH, Franklin County	source_count	source_weight	sampling_probability
+G3900490, G39004101	12264	47356	1
+# Created by: sources\spatial\tsv_maker.py
+# Description: The U.S. County that the sample is located.
+# Source: Spatial definitions are from the U.S. Census Bureau as of July 1, 2015.
+# Source: Unit counts are from the American Community Survey 5-yr 2016.

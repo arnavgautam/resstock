@@ -1,0 +1,8 @@
+Dependency=County	Option=5A	source_count	source_weight	sampling_probability
+OH, Franklin County	1	22826	540779	0.004034
+# Created by: sources\spatial\tsv_maker.py
+# Description: Climate zone according to ASHRAE 169 in 2004 and IECC in 2012 that the sample is located. Climate zone where climate zone 2A is split between counties in TX, LA and FL, GA, AL, and MS
+# Source: Spatial definitions are from the U.S. Census Bureau as of July 1, 2015.
+# Source: Unit counts are from the American Community Survey 5-yr 2016.
+# Source: Climate zone data are from ASHRAE 169 2006, IECC 2012, and M.C. Baechler 2015.
+# Assumption: This characteristic is used to better represent HVAC types in the 2A climate zone.

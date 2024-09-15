@@ -1,0 +1,12 @@
+Dependency=County and PUMA	Option=OH, Columbus	source_count	source_weight	sampling_probability
+G3900490, G39004101	1	2264	47356	1
+# Created by: sources\spatial\tsv_maker.py
+# Description: The City that the sample is located.
+# Source: Spatial definitions are from the U.S. Census Bureau as of July 1, 2015.
+# Source: Cities are defined by Census blocks by their Census Place in the 2010 Census.
+# Source: Unit counts are from the American Community Survey 5-yr 2016.
+# Assumption: 2020 Deccenial Redistricting data was used to map tract level unit counts to census blocks.
+# Assumption: 1,099 cities are tagged in ResStock, but there are over 29,000 Places in the Census data.
+# Assumption: The threshold for including a Census Place in the City.tsv is 15,000 dwelling units.
+# Assumption: The value 'In another census Place' designates the fraction of dwelling units in a Census Place with fewer total dwelling units than the threshold.
+# Assumption: The value 'Not in a census Place' designates the fraction of dwelling units not in a Census Place according to the 2010 Census.

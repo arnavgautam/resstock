@@ -10,7 +10,7 @@ weather_files_url: https://data.nrel.gov/system/files/156/Buildstock_TMY3_FIPS-1
 sampler:
   type: precomputed
   args:
-    sample_file: ../resources/single_2_unit_buildstock.csv
+    sample_file: ../resources/minneapolis/single_2_unit_buildstock.csv
 
 workflow_generator:
   type: residential_hpxml
