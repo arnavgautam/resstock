@@ -1,0 +1,2 @@
+building_id,job_id,started_at,completed_at,completed_status,apply_upgrade.applicable,apply_upgrade.upgrade_name,report_hpxml_output.applicable,report_simulation_output.applicable,report_utility_bills.applicable,upgrade_costs.applicable
+1,run3,2024-09-16T15:07:28,2024-09-16T15:07:38,Invalid,true,MSHP,false,false,false,false

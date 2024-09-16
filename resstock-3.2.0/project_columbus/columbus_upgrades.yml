@@ -63,8 +63,8 @@ upgrades:
     package_apply_logic:
       - HVAC Has Ducts|Yes
     options:
-      - &hvac_heating_efficiency_ashp_seer_22_10_hspf
-        option: HVAC Heating Efficiency|ASHP, SEER 22, 10 HSPF
+      - &hvac_heating_efficiency_ashp_seer_14pt12_8pt34_hspf
+        option: HVAC Heating Efficiency|ASHP, SEER 14.12, 8.34 HSPF, 3.12T Cooling, 2.91T Heating
         costs:
           - value: 50.0
             multiplier: Size, Heating System Primary (kBtu/h)
@@ -78,8 +78,8 @@ upgrades:
     package_apply_logic:
       - HVAC Has Ducts|Yes
     options:
-      - &hvac_heating_efficiency_mshp_seer_25_12_pt_7_hspf_ducted
-        option: HVAC Heating Efficiency|MSHP, SEER 25, 12.7 HSPF, Ducted
+      - &hvac_heating_efficiency_mshp_seer_14pt12_12_pt_8pt34_hspf_ducted
+        option: HVAC Heating Efficiency|MSHP, SEER 14.12, 8.34 HSPF, 3.12T Cooling, 2.91T Heating, Ducted
         costs:
           - value: 50.0
             multiplier: Size, Heating System Primary (kBtu/h)
@@ -93,8 +93,8 @@ upgrades:
     package_apply_logic:
       - HVAC Has Ducts|No
     options:
-      - &hvac_heating_efficiency_mshp_seer_25_12_pt_7_hspf
-        option: HVAC Heating Efficiency|MSHP, SEER 25, 12.7 HSPF
+      - &hvac_heating_efficiency_mshp_seer_seer_14pt12_12_pt_8pt34_hspf
+        option: HVAC Heating Efficiency|MSHP, SEER 14.12, 8.34 HSPF, 3.12T Cooling, 2.91T Heating
         costs:
           - value: 50.0
             multiplier: Size, Heating System Primary (kBtu/h)
@@ -103,17 +103,17 @@ upgrades:
         option: HVAC Cooling Efficiency|Non-Ducted Heat Pump
       - *heat_pump_backup_use_existing_system
 
-  - upgrade_name: GSHP
-    package_apply_logic:
-      - HVAC Has Ducts|Yes
-    options:
-      - &hvac_heating_efficiency_gshp_eer_20_pt_2_cop_4_pt_2
-        option: HVAC Heating Efficiency|GSHP, EER 20.2, COP 4.2
-        costs:
-          - value: 50.0
-            multiplier: Size, Heating System Primary (kBtu/h)
-        lifetime: 30
-      - *hvac_cooling_efficiency_ducted_heat_pump
+  # - upgrade_name: GSHP
+  #   package_apply_logic:
+  #     - HVAC Has Ducts|Yes
+  #   options:
+  #     - &hvac_heating_efficiency_gshp_eer_20_pt_2_cop_4_pt_2
+  #       option: HVAC Heating Efficiency|GSHP, EER 20.2, COP 4.2
+  #       costs:
+  #         - value: 50.0
+  #           multiplier: Size, Heating System Primary (kBtu/h)
+  #       lifetime: 30
+  #     - *hvac_cooling_efficiency_ducted_heat_pump
 # eagle:
 #   n_jobs: 3
 #   minutes_per_sim: 30

@@ -1,0 +1,23 @@
+Enclosure: Wall Area Thermal Boundary (ft^2),564.2
+Enclosure: Wall Area Exterior (ft^2),564.2
+Enclosure: Foundation Wall Area Exterior (ft^2),282.0
+Enclosure: Floor Area Conditioned (ft^2),1678.0
+Enclosure: Floor Area Lighting (ft^2),1678.0
+Enclosure: Floor Area Foundation (ft^2),559.3
+Enclosure: Ceiling Area Thermal Boundary (ft^2),0.0
+Enclosure: Roof Area (ft^2),559.3
+Enclosure: Window Area (ft^2),50.8
+Enclosure: Door Area (ft^2),20.0
+Enclosure: Duct Area Unconditioned (ft^2),0.0
+Enclosure: Rim Joist Area (ft^2),76.2
+Enclosure: Slab Exposed Perimeter Thermal Boundary (ft),35.3
+
+Systems: Cooling Capacity (Btu/h),9887.0
+Systems: Heating Capacity (Btu/h),23410.0
+Systems: Heat Pump Backup Capacity (Btu/h),0.0
+Systems: Water Heater Tank Volume (gal),40.0
+Systems: Mechanical Ventilation Flow Rate (cfm),0.0
+
+Primary Systems: Cooling Capacity (Btu/h),9887.0
+Primary Systems: Heating Capacity (Btu/h),23410.0
+Primary Systems: Heat Pump Backup Capacity (Btu/h),0.0
